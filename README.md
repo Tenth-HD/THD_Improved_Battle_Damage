@@ -17,7 +17,7 @@ Example Images:
 
 ![Alt text](Example_Images/Example_Norse_Human_Damage2.png "Norse Humans")
 
-![Alt text](Example_Images/Example_Norse_Human_Damage2.png "Manticores")
+![Alt text](Example_Images/Example_Green_Damage2.png.png "Manticores")
 
 **Changelog**
 
