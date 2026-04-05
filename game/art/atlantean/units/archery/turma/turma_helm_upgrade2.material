@@ -1,0 +1,37 @@
+<material>
+	<submaterial name="matA">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="atlantean\units\archery\turma\textures\turma_helm_upgrade2_mata_metalmask"></texture>
+			<texture name="Normals" override="atlantean\units\archery\turma\textures\turma_helm_upgrade2_mata_normals"></texture>
+			<texture name="Masks" override="atlantean\units\archery\turma\textures\turma_helm_upgrade2_mata_masks"></texture>
+			<texture name="Masks2" override="atlantean\units\archery\turma\textures\turma_helm_upgrade2_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Metallic Swatch" override="1"></int>
+		</parameters>
+		<parameters variant="1">
+			<texture name="BaseColor" override="atlantean\units\archery\turma\textures\turma_helm_upgrade2_mata_metalmask"></texture>
+			<texture name="Normals" override="atlantean\units\archery\turma\textures\turma_helm_upgrade2_mata_normals"></texture>
+			<texture name="Masks" override="atlantean\units\archery\turma\textures\turma_helm_upgrade2_mata_masks"></texture>
+			<texture name="Masks2" override="atlantean\units\archery\turma\textures\turma_helm_upgrade2_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Metallic Swatch" override="2"></int>
+		</parameters>
+		<parameters variant="2">
+			<texture name="BaseColor" override="atlantean\units\archery\turma\textures\turma_helm_upgrade2_mata_metalmask"></texture>
+			<texture name="Normals" override="atlantean\units\archery\turma\textures\turma_helm_upgrade2_mata_normals"></texture>
+			<texture name="Masks" override="atlantean\units\archery\turma\textures\turma_helm_upgrade2_mata_masks"></texture>
+			<texture name="Masks2" override="atlantean\units\archery\turma\textures\turma_helm_upgrade2_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Metallic Swatch" override="3"></int>
+		</parameters>
+		<parameters variant="3">
+			<texture name="BaseColor" override="atlantean\units\archery\turma\textures\turma_helm_upgrade2_mata_metalmask"></texture>
+			<texture name="Normals" override="atlantean\units\archery\turma\textures\turma_helm_upgrade2_mata_normals"></texture>
+			<texture name="Masks" override="atlantean\units\archery\turma\textures\turma_helm_upgrade2_mata_masks"></texture>
+			<texture name="Masks2" override="atlantean\units\archery\turma\textures\turma_helm_upgrade2_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Metallic Swatch" override="4"></int>
+		</parameters>
+	</submaterial>
+</material>

@@ -1,0 +1,22 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit_doublesided"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="norse\units\myth\valkyrie\textures\valkyrie_horse_upgrade_mata_basecolor"></texture>
+			<texture name="Normals" override="norse\units\myth\valkyrie\textures\valkyrie_horse_upgrade_mata_normals"></texture>
+			<texture name="Masks" override="norse\units\myth\valkyrie\textures\valkyrie_horse_upgrade_mata_masks"></texture>
+			<texture name="Masks2" override="norse\units\myth\valkyrie\textures\valkyrie_horse_upgrade_mata_masks2"></texture>
+			<texture name="Emissive Texture" override="norse\units\myth\valkyrie\textures\valkyrie_horse_upgrade_mata_emissive"></texture>
+			<texture name="Emissive Crawling Texture" override="vfx\textures\emissive_crawling02"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_rainbow_basecolor"></texture>
+			<float name="Emissive Intensity" override="0.1080"></float>
+			<float name="Emissive Crawling Speed" override="0.1000"></float>
+			<float name="Emissive Crawling UV Scale" override="2.5000"></float>
+			<int name="Use Gradient" override="1"></int>
+		</parameters>
+		<permutations variant="0">
+			<permutation>ALPHA_CUT_OUT</permutation>
+			<permutation>EMISSIVE</permutation>
+		</permutations>
+	</submaterial>
+</material>

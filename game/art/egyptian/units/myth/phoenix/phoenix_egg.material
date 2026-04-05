@@ -1,0 +1,21 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="egyptian\units\myth\phoenix\textures\phoenix_egg_matb_basecolor"></texture>
+			<texture name="Normals" override="egyptian\units\myth\phoenix\textures\phoenix_egg_matb_normals"></texture>
+			<texture name="Masks" override="egyptian\units\myth\phoenix\textures\phoenix_egg_matb_masks"></texture>
+			<texture name="Masks2" override="egyptian\units\myth\phoenix\textures\phoenix_egg_matb_masks2"></texture>
+			<texture name="Emissive Texture" override="egyptian\units\myth\phoenix\textures\phoenix_egg_matb_emissive"></texture>
+			<texture name="Emissive Crawling Texture" override="vfx\textures\emissive_crawling02_fire"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_yellow_basecolor"></texture>
+			<float name="Emissive Crawling Speed" override="0.0720"></float>
+			<float name="Emissive Crawling UV Scale" override="0.3620"></float>
+			<float name="Emissive Intensity" override="3.2950"></float>
+			<float name="Gradient Height" override="2.0000"></float>
+		</parameters>
+		<permutations variant="0">
+			<permutation>EMISSIVE</permutation>
+		</permutations>
+	</submaterial>
+</material>

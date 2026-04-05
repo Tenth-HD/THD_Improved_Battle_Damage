@@ -1,0 +1,37 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="japanese\units\attachments\yari\textures\yari_j_b_baseline_mata_basecolor"></texture>
+			<texture name="Normals" override="japanese\units\attachments\yari\textures\yari_j_b_baseline_mata_normals"></texture>
+			<texture name="Masks" override="japanese\units\attachments\yari\textures\yari_j_b_baseline_mata_masks"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Metallic Swatch" override="1"></int>
+			<texture name="Masks2" override="japanese\units\attachments\yari\textures\yari_j_b_baseline_mata_masks2"></texture>
+		</parameters>
+		<parameters variant="1">
+			<texture name="BaseColor" override="japanese\units\attachments\yari\textures\yari_j_b_baseline_mata_basecolor"></texture>
+			<texture name="Normals" override="japanese\units\attachments\yari\textures\yari_j_b_baseline_mata_normals"></texture>
+			<texture name="Masks" override="japanese\units\attachments\yari\textures\yari_j_b_baseline_mata_masks"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Metallic Swatch" override="2"></int>
+			<texture name="Masks2" override="japanese\units\attachments\yari\textures\yari_j_b_baseline_mata_masks2"></texture>
+		</parameters>
+		<parameters variant="2">
+			<texture name="BaseColor" override="japanese\units\attachments\yari\textures\yari_j_b_baseline_mata_basecolor"></texture>
+			<texture name="Normals" override="japanese\units\attachments\yari\textures\yari_j_b_baseline_mata_normals"></texture>
+			<texture name="Masks" override="japanese\units\attachments\yari\textures\yari_j_b_baseline_mata_masks"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Metallic Swatch" override="3"></int>
+			<texture name="Masks2" override="japanese\units\attachments\yari\textures\yari_j_b_baseline_mata_masks2"></texture>
+		</parameters>
+		<parameters variant="3">
+			<texture name="BaseColor" override="japanese\units\attachments\yari\textures\yari_j_b_baseline_mata_basecolor"></texture>
+			<texture name="Normals" override="japanese\units\attachments\yari\textures\yari_j_b_baseline_mata_normals"></texture>
+			<texture name="Masks" override="japanese\units\attachments\yari\textures\yari_j_b_baseline_mata_masks"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Metallic Swatch" override="4"></int>
+			<texture name="Masks2" override="japanese\units\attachments\yari\textures\yari_j_b_baseline_mata_masks2"></texture>
+		</parameters>
+	</submaterial>
+</material>

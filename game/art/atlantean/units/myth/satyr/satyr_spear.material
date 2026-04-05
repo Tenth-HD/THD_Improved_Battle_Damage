@@ -1,0 +1,11 @@
+<material>
+	<submaterial name="MatA">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="atlantean\units\myth\satyr\textures\satyr_spear_mata_basecolor"></texture>
+			<texture name="Normals" override="atlantean\units\myth\satyr\textures\satyr_spear_mata_normals"></texture>
+			<texture name="Masks" override="atlantean\units\myth\satyr\textures\satyr_spear_mata_masks"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+</material>

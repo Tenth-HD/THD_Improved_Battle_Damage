@@ -1,0 +1,12 @@
+<material>
+	<submaterial name="matb">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="egyptian\units\myth\avenger\textures\avenger_dagger_matb_basecolor"></texture>
+			<texture name="Normals" override="egyptian\units\myth\avenger\textures\avenger_dagger_matb_normals"></texture>
+			<texture name="Masks" override="egyptian\units\myth\avenger\textures\avenger_dagger_matb_masks"></texture>
+			<texture name="Masks2" override="egyptian\units\myth\avenger\textures\avenger_dagger_matb_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+</material>

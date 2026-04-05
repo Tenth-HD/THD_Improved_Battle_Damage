@@ -1,0 +1,14 @@
+<material>
+	<submaterial name="matA">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="Normals" override="egyptian\units\myth\scorpion_man\textures\scorpion_man_mata_normals"></texture>
+			<texture name="Masks" override="egyptian\units\myth\scorpion_man\textures\scorpion_man_mata_masks"></texture>
+			<texture name="Masks2" override="egyptian\units\myth\scorpion_man\textures\scorpion_man_mata_masks2"></texture>
+			<texture name="BaseColor" override="egyptian\units\myth\scorpion_man\textures\scorpion_man_mata_metalmask"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_green_basecolor"></texture>
+			<int name="Use Gradient" override="1"></int>
+			<float name="Gradient Bottom Strength" override="0.7500"></float>
+		</parameters>
+	</submaterial>
+</material>

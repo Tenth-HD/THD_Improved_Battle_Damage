@@ -1,0 +1,21 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="japanese\units\myth\jorogumo\textures\jorogumo_lantern_mata_basecolor"></texture>
+			<texture name="Normals" override="japanese\units\myth\jorogumo\textures\jorogumo_lantern_mata_normals"></texture>
+			<texture name="Masks" override="japanese\units\myth\jorogumo\textures\jorogumo_lantern_mata_masks"></texture>
+			<texture name="Details" override="japanese\units\myth\jorogumo\textures\jorogumo_lantern_mata_details"></texture>
+			<texture name="Emissive Texture" override="japanese\units\myth\jorogumo\textures\jorogumo_lantern_mata_emissive"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<float name="Emissive Intensity" override="2.0000"></float>
+			<texture name="Emissive Crawling Texture" override="vfx\textures\emissive_crawling02_fire"></texture>
+			<float name="Emissive Crawling Speed" override="0.0100"></float>
+			<float name="Emissive Crawling UV Scale" override="0.0000"></float>
+		</parameters>
+		<permutations variant="0">
+			<permutation>BUILDING_DETAILS</permutation>
+			<permutation>EMISSIVE</permutation>
+		</permutations>
+	</submaterial>
+</material>

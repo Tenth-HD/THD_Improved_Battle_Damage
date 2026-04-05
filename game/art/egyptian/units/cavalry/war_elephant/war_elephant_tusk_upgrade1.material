@@ -1,0 +1,12 @@
+<material>
+	<submaterial name="matA">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="Normals" override="egyptian\units\cavalry\war_elephant\textures\war_elephant_tusk_upgrade1_mata_normals"></texture>
+			<texture name="Masks" override="egyptian\units\cavalry\war_elephant\textures\war_elephant_tusk_upgrade1_mata_masks"></texture>
+			<texture name="Masks2" override="egyptian\units\cavalry\war_elephant\textures\war_elephant_tusk_upgrade1_mata_masks2"></texture>
+			<texture name="BaseColor" override="egyptian\units\cavalry\war_elephant\textures\war_elephant_tusk_upgrade1_mata_metalmask"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+</material>

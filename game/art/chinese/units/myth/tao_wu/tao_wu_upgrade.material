@@ -1,0 +1,13 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="chinese\units\myth\tao_wu\texture\tao_wu_upgrade_mata_basecolor"></texture>
+			<texture name="Normals" override="chinese\units\myth\tao_wu\texture\tao_wu_upgrade_mata_normals"></texture>
+			<texture name="Masks" override="chinese\units\myth\tao_wu\texture\tao_wu_upgrade_mata_masks"></texture>
+			<texture name="Masks2" override="chinese\units\myth\tao_wu\texture\tao_wu_upgrade_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_purple_basecolor"></texture>
+			<int name="Use Gradient" override="1"></int>
+		</parameters>
+	</submaterial>
+</material>

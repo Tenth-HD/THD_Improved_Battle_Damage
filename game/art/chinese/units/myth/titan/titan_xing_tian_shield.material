@@ -1,0 +1,12 @@
+<material>
+	<submaterial name="matA">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="chinese\units\myth\titan\texture\titan_xing_tian_shield_mata_basecolor"></texture>
+			<texture name="Normals" override="chinese\units\myth\titan\texture\titan_xing_tian_shield_mata_normals"></texture>
+			<texture name="Masks" override="chinese\units\myth\titan\texture\titan_xing_tian_shield_mata_masks"></texture>
+			<texture name="Masks2" override="chinese\units\myth\titan\texture\titan_xing_tian_shield_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+</material>

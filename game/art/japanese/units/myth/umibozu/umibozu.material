@@ -1,0 +1,47 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="edge_emission"></materialdef>
+		<parameters>
+			<texture name="Normals" override="japanese\units\myth\umibozu\textures\umibozu_mata_normals"></texture>
+			<float name="Emission Intensity" override="6.0770"></float>
+			<float name="Fresnel Pow" override="10.0000"></float>
+			<float name="Fresnel Base" override="0.0330"></float>
+		</parameters>
+	</submaterial>
+	<submaterial name="matc">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="japanese\units\myth\umibozu\textures\umibozu_matc_basecolor"></texture>
+			<texture name="Normals" override="japanese\units\myth\umibozu\textures\umibozu_matc_normals"></texture>
+			<texture name="Masks" override="japanese\units\myth\umibozu\textures\umibozu_matc_masks"></texture>
+			<texture name="Masks2" override="japanese\units\myth\umibozu\textures\umibozu_matc_masks2"></texture>
+			<texture name="Emissive Texture" override="japanese\units\myth\umibozu\textures\umibozu_matc_emissive"></texture>
+			<texture name="Emissive Crawling Texture" override="japanese\units\myth\umibozu\textures\umibozu_emissive_crawling"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_rainbow_basecolor"></texture>
+			<float name="Emissive Intensity" override="7.2870"></float>
+			<float name="Emissive Crawling Speed" override="0.0290"></float>
+			<float name="Emissive Crawling UV Scale" override="0.3700"></float>
+		</parameters>
+		<permutations variant="0">
+			<permutation>ALPHA_CUT_OUT</permutation>
+			<permutation>EMISSIVE</permutation>
+		</permutations>
+	</submaterial>
+	<submaterial name="matb">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="japanese\units\myth\umibozu\textures\umibozu_matb_basecolor"></texture>
+			<texture name="Normals" override="japanese\units\myth\umibozu\textures\umibozu_matb_normals"></texture>
+			<texture name="Masks" override="japanese\units\myth\umibozu\textures\umibozu_matb_masks"></texture>
+			<texture name="Emissive Texture" override="japanese\units\myth\umibozu\textures\umibozu_matb_emissive"></texture>
+			<texture name="Emissive Crawling Texture" override="japanese\units\myth\umibozu\textures\umibozu_emissive_crawling"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_rainbow_basecolor"></texture>
+			<float name="Emissive Intensity" override="8.6870"></float>
+			<float name="Emissive Crawling Speed" override="0.0610"></float>
+			<float name="Emissive Crawling UV Scale" override="1.0610"></float>
+		</parameters>
+		<permutations variant="0">
+			<permutation>EMISSIVE</permutation>
+		</permutations>
+	</submaterial>
+</material>

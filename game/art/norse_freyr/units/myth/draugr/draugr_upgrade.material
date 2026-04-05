@@ -1,0 +1,22 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="norse_freyr\units\myth\draugr\textures\draugr_upgrade_mata_basecolor"></texture>
+			<texture name="Normals" override="norse_freyr\units\myth\draugr\textures\draugr_upgrade_mata_normals"></texture>
+			<texture name="Masks" override="norse_freyr\units\myth\draugr\textures\draugr_upgrade_mata_masks"></texture>
+			<texture name="Masks2" override="norse_freyr\units\myth\draugr\textures\draugr_upgrade_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+	<submaterial name="matB">
+		<materialdef name="opaque_lit_doublesided"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="norse_freyr\units\myth\draugr\textures\draugr_upgrade_mata_basecolor"></texture>
+			<texture name="Normals" override="norse_freyr\units\myth\draugr\textures\draugr_upgrade_mata_normals"></texture>
+			<texture name="Masks" override="norse_freyr\units\myth\draugr\textures\draugr_upgrade_mata_masks"></texture>
+			<texture name="Masks2" override="norse_freyr\units\myth\draugr\textures\draugr_upgrade_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+</material>

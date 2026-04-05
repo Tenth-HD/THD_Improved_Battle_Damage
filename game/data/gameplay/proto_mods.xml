@@ -1,0 +1,302 @@
+<protomods>
+    <unit name="Hippocampus">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Centaur">
+        <bloodgroupoverride>defaultbloodhorse</bloodgroupoverride>
+    </unit>
+    <unit name="Minotaur">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Cyclops">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Polyphemus">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="LykaonVillager">
+        <bloodgroupoverride>defaultblood</bloodgroupoverride>
+    </unit>
+    <unit name="LykaonWolf">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Manticore">
+        <bloodgroupoverride>mythbloodgreen</bloodgroupoverride>
+    </unit>
+    <unit name="NemeanLion">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Hydra">
+        <bloodgroupoverride>mythbloodpurple</bloodgroupoverride>
+    </unit>
+    <unit name="Scylla">
+        <bloodgroupoverride>mythbloodpurple</bloodgroupoverride>
+    </unit>
+    <unit name="Carcinos">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Chimera">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Siren">
+        <bloodgroupoverride>mythbloodrainbow</bloodgroupoverride>
+    </unit>
+    <unit name="Medusa">
+        <bloodgroupoverride>mythbloodgreen</bloodgroupoverride>
+    </unit>
+    <unit name="Pegasus">
+        <bloodgroupoverride>mythbloodhorsewhitegold</bloodgroupoverride>
+    </unit>
+    <unit name="Bellerophon">
+        <bloodgroupoverride>mythbloodhorsewhitegold</bloodgroupoverride>
+    </unit>
+    <unit name="TitanCerberus">
+        <bloodgroupoverride>titanbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Wadjet">
+        <bloodgroupoverride>mythbloodyellow</bloodgroupoverride>
+    </unit>
+    <unit name="Sphinx">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Anubite">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="WarTurtle">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Leviathan">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="ScorpionMan">
+        <bloodgroupoverride>mythbloodgreen</bloodgroupoverride>
+    </unit>
+    <unit name="Roc">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="RocLanded">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Petsuchos">
+        <bloodgroupoverride>mythbloodyellow</bloodgroupoverride>
+    </unit>
+    <unit name="Scarab">
+        <bloodgroupoverride>mythbloodpurplenoskeleton</bloodgroupoverride>
+    </unit>
+    <unit name="Avenger">
+        <bloodgroupoverride>mythbloodyellow</bloodgroupoverride>
+    </unit>
+    <unit name="Mummy">
+        <bloodgroupoverride>mythbloodpurplenoskeletonnopool</bloodgroupoverride>
+    </unit>
+    <unit name="Phoenix">
+        <bloodgroupoverride>mythbloodyellow</bloodgroupoverride>
+    </unit>
+    <unit name="PhoenixEgg">
+        <bloodgroupoverride>mythbloodyellow</bloodgroupoverride>
+    </unit>
+    <unit name="Minion">
+        <bloodgroupoverride>mythbloodpurplenoskeletonnopool</bloodgroupoverride>
+    </unit>
+    <unit name="SonOfOsiris">
+        <bloodgroupoverride>mythbloodyellow</bloodgroupoverride>
+    </unit>
+    <unit name="TitanBird">
+        <bloodgroupoverride>mythbloodyellow</bloodgroupoverride>
+    </unit>
+    <unit name="Troll">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Einheri">
+        <bloodgroupoverride>mythbloodrainbow</bloodgroupoverride>
+    </unit>
+    <unit name="Valkyrie">
+        <bloodgroupoverride>mythbloodhorserainbow</bloodgroupoverride>
+    </unit>
+    <unit name="Kraken">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="JormunElver">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Draugr">
+        <bloodgroupoverride>mythbloodpurple</bloodgroupoverride>
+    </unit>
+    <unit name="FrostGiant">
+        <bloodgroupoverride>mythbloodblue</bloodgroupoverride>
+    </unit>
+    <unit name="KingFolstag">
+        <bloodgroupoverride>mythbloodblue</bloodgroupoverride>
+    </unit>
+    <unit name="MountainGiant">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="FenrisWolfBrood">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="FireGiant">
+        <bloodgroupoverride>mythbloodyellownoskeleton</bloodgroupoverride>
+    </unit>
+    <unit name="Fafnir">
+        <bloodgroupoverride>mythbloodyellownoskeleton</bloodgroupoverride>
+    </unit>
+    <unit name="Raven">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="GullinburstiArchaic">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="GullinburstiHeroic">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="GullinburstiMythic">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="FimbulwinterWolf">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Nidhogg">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="TitanYmir">
+        <bloodgroupoverride>mythbloodblue</bloodgroupoverride>
+    </unit>
+    <unit name="Caladria">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Servant">
+        <bloodgroupoverride>mythbloodblue</bloodgroupoverride>
+    </unit>
+    <unit name="ManOWar">
+        <bloodgroupoverride>mythbloodpurple</bloodgroupoverride>
+    </unit>
+    <unit name="Nereid">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Behemoth">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="StymphalianBird">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Satyr">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Lampades">
+        <bloodgroupoverride>mythbloodgreen</bloodgroupoverride>
+    </unit>
+    <unit name="Centimanus">
+        <bloodgroupoverride>mythbloodgreen</bloodgroupoverride>
+    </unit>
+    <unit name="TartarianSpawn">
+        <bloodgroupoverride>mythbloodyellow</bloodgroupoverride>
+    </unit>
+    <unit name="Argus">
+        <bloodgroupoverride>mythbloodgreennoskeleton</bloodgroupoverride>
+    </unit>
+    <unit name="TitanAtlantean">
+        <bloodgroupoverride>titanbloodyellownoskeleton</bloodgroupoverride>
+    </unit>
+    <unit name="Qilin">
+        <bloodgroupoverride>mythbloodhorserainbow</bloodgroupoverride>
+    </unit>
+    <unit name="Yazi">
+        <bloodgroupoverride>defaultbloodhorse</bloodgroupoverride>
+    </unit>
+    <unit name="QiongQi">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="QiongQiAir">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="TaoWu">
+        <bloodgroupoverride>mythbloodpurple</bloodgroupoverride>
+    </unit>
+    <unit name="ChiWen">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="TaoTie">
+        <bloodgroupoverride>mythbloodpurple</bloodgroupoverride>
+    </unit>
+    <unit name="BaiHu">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="PiXiu">
+        <bloodgroupoverride>mythbloodhorseyellow</bloodgroupoverride>
+    </unit>
+    <unit name="QingLong">
+        <bloodgroupoverride>mythbloodblue</bloodgroupoverride>
+    </unit>
+    <unit name="XuanWu">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="HunDun">
+        <bloodgroupoverride>mythbloodpurple</bloodgroupoverride>
+    </unit>
+    <unit name="ZhuQue">
+        <bloodgroupoverride>mythbloodyellow</bloodgroupoverride>
+    </unit>
+    <unit name="ZhuQueLanded">
+        <bloodgroupoverride>mythbloodyellow</bloodgroupoverride>
+    </unit>
+    <unit name="Fei">
+        <bloodgroupoverride>mythbloodgreen</bloodgroupoverride>
+    </unit>
+    <unit name="YingLong">
+        <bloodgroupoverride>mythbloodyellow</bloodgroupoverride>
+    </unit>
+    <unit name="TitanXingTian">
+        <bloodgroupoverride>titanbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Kamaitachi">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Jorogumo">
+        <bloodgroupoverride>mythbloodgreen</bloodgroupoverride>
+    </unit>
+    <unit name="Wanyudo">
+        <bloodgroupoverride>mythbloodyellow</bloodgroupoverride>
+    </unit>
+    <unit name="Tengu">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Raiju">
+        <bloodgroupoverride>mythbloodblue</bloodgroupoverride>
+    </unit>
+    <unit name="Oni">
+        <bloodgroupoverride>mythbloodyellow</bloodgroupoverride>
+    </unit>
+    <unit name="Onmoraki">
+        <bloodgroupoverride>mythbloodpurple</bloodgroupoverride>
+    </unit>
+    <unit name="Shinigami">
+        <bloodgroupoverride>mythbloodpurplenoskeleton</bloodgroupoverride>
+    </unit>
+    <unit name="ShinigamiRevenant">
+        <bloodgroupoverride>mythbloodpurplenoskeletonnopool</bloodgroupoverride>
+    </unit>
+    <unit name="GullinburstiVengeful">
+        <bloodgroupoverride>mythbloodpurplenoskeletonnopool</bloodgroupoverride>
+    </unit>
+    <unit name="Umibozu">
+        <bloodgroupoverride>mythbloodrainbownoskeleton</bloodgroupoverride>
+    </unit>
+    <unit name="Asura">
+        <bloodgroupoverride>mythbloodyellow</bloodgroupoverride>
+    </unit>
+    <unit name="Honengyo">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Kitsune">
+        <bloodgroupoverride>mythbloodrainbow</bloodgroupoverride>
+    </unit>
+    <unit name="Wretch">
+        <bloodgroupoverride>noblood</bloodgroupoverride>
+    </unit>
+    <unit name="Kappa">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="TitanYamataNoOrochi">
+        <bloodgroupoverride>mythbloodwhitegold</bloodgroupoverride>
+    </unit>
+</protomods>

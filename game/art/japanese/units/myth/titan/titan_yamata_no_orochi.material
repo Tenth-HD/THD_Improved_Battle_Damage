@@ -1,0 +1,24 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="japanese\units\myth\titan\textures\titan_yamata_no_orochi_mata_basecolor"></texture>
+			<texture name="Normals" override="japanese\units\myth\titan\textures\titan_yamata_no_orochi_mata_normals"></texture>
+			<texture name="Masks" override="japanese\units\myth\titan\textures\titan_yamata_no_orochi_mata_masks"></texture>
+			<texture name="Masks2" override="japanese\units\myth\titan\textures\titan_yamata_no_orochi_mata_masks2"></texture>
+			<texture name="Emissive Texture" override="japanese\units\myth\titan\textures\titan_yamata_no_orochi_mata_emissive"></texture>
+			<texture name="Emissive Crawling Texture" override="japanese\units\myth\titan\textures\titan_yamata_no_orochi_mata_emissive_02"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_whitegold_basecolor"></texture>
+			<float name="Emissive Intensity" override="4.5190"></float>
+			<float name="Emissive Crawling Speed" override="0.1350"></float>
+			<float name="Emissive Crawling UV Scale" override="10.0000"></float>
+			<float name="Iridescent Intensity" override="0.0400"></float>
+			<float name="Center" override="0.2020"></float>
+			<float name="Range" override="1.0000"></float>
+		</parameters>
+		<permutations variant="0">
+			<permutation>IRIDESCENT</permutation>
+			<permutation>EMISSIVE</permutation>
+		</permutations>
+	</submaterial>
+</material>

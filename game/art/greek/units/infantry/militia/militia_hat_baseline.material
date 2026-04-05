@@ -1,0 +1,15 @@
+<material>
+	<submaterial name="matA">
+		<materialdef name="opaque_lit_doublesided"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="greek\units\infantry\militia\textures\militia_hat_baseline_basecolor"></texture>
+			<texture name="Normals" override="greek\units\infantry\militia\textures\militia_hat_baseline_normals"></texture>
+			<texture name="Masks" override="greek\units\infantry\militia\textures\militia_hat_baseline_masks"></texture>
+			<texture name="Masks2" override="greek\units\infantry\militia\textures\militia_hat_baseline_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Metallic Swatch" override="0"></int>
+			<int name="Use Gradient" override="1"></int>
+			<float name="Gradient Height" override="0.0800"></float>
+		</parameters>
+	</submaterial>
+</material>

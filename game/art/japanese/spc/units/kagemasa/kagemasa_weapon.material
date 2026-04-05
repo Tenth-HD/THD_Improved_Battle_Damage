@@ -1,0 +1,11 @@
+<material>
+	<submaterial name="matb">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="japanese\spc\units\kagemasa\textures\kagemasa_matb_basecolor"></texture>
+			<texture name="Normals" override="japanese\spc\units\kagemasa\textures\kagemasa_matb_normals"></texture>
+			<texture name="Masks" override="japanese\spc\units\kagemasa\textures\kagemasa_matb_masks"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+</material>

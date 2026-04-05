@@ -1,0 +1,22 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="norse\units\economic\ox_cart\textures\ox_cart_matb_metalmask"></texture>
+			<texture name="Normals" override="norse\units\economic\ox_cart\textures\ox_cart_matb_normals"></texture>
+			<texture name="Masks" override="norse\units\economic\ox_cart\textures\ox_cart_matb_masks"></texture>
+			<texture name="Masks2" override="norse\units\economic\ox_cart\textures\ox_cart_matb_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+	<submaterial name="matb">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="norse\units\economic\ox_cart\textures\ox_cart_wheel_mata_metalmask"></texture>
+			<texture name="Normals" override="norse\units\economic\ox_cart\textures\ox_cart_wheel_mata_normals"></texture>
+			<texture name="Masks" override="norse\units\economic\ox_cart\textures\ox_cart_wheel_mata_masks"></texture>
+			<texture name="Masks2" override="norse\units\economic\ox_cart\textures\ox_cart_wheel_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+</material>

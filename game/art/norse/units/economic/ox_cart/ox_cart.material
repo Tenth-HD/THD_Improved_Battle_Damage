@@ -1,0 +1,63 @@
+<material>
+	<submaterial name="matA">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="norse\units\economic\ox_cart\textures\ox_cart_mata_metalmask"></texture>
+			<texture name="Normals" override="norse\units\economic\ox_cart\textures\ox_cart_mata_normals"></texture>
+			<texture name="Masks" override="norse\units\economic\ox_cart\textures\ox_cart_mata_masks"></texture>
+			<texture name="Emissive Texture" override=""></texture>
+			<texture name="Masks2" override="norse\units\economic\ox_cart\textures\ox_cart_mata_masks2"></texture>
+			<int name="Use Gradient" override="1"></int>
+		</parameters>
+	</submaterial>
+	<submaterial name="matB">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="norse\units\economic\ox_cart\textures\ox_cart_matb_metalmask"></texture>
+			<texture name="Normals" override="norse\units\economic\ox_cart\textures\ox_cart_matb_normals"></texture>
+			<texture name="Masks" override="norse\units\economic\ox_cart\textures\ox_cart_matb_masks"></texture>
+			<texture name="Masks2" override="norse\units\economic\ox_cart\textures\ox_cart_matb_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+	<submaterial name="matF">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="shared\buildings\props\fire_wood\textures\fire_wood_mata_basecolor"></texture>
+			<texture name="Normals" override="shared\buildings\props\fire_wood\textures\fire_wood_mata_normals"></texture>
+			<texture name="Masks" override="shared\buildings\props\fire_wood\textures\fire_wood_mata_masks"></texture>
+			<texture name="Masks2" override="shared\buildings\props\fire_wood\textures\fire_wood_mata_details"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+	<submaterial name="matD">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="spc\buildings\dwarven_forge\textures\dwarven_forge_props_mata_basecolor"></texture>
+			<texture name="Normals" override="spc\buildings\dwarven_forge\textures\dwarven_forge_props_mata_normals"></texture>
+			<texture name="Masks" override="spc\buildings\dwarven_forge\textures\dwarven_forge_props_mata_masks"></texture>
+			<texture name="Masks2" override="spc\buildings\dwarven_forge\textures\dwarven_forge_props_mata_details"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+	<submaterial name="matC">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="norse\units\economic\ox_cart\textures\ox_cart_wheel_mata_metalmask"></texture>
+			<texture name="Normals" override="norse\units\economic\ox_cart\textures\ox_cart_wheel_mata_normals"></texture>
+			<texture name="Masks" override="norse\units\economic\ox_cart\textures\ox_cart_wheel_mata_masks"></texture>
+			<texture name="Masks2" override="norse\units\economic\ox_cart\textures\ox_cart_wheel_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+	<submaterial name="matE">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="shared\buildings\props\fruit_basket\textures\fruit_basket_mata_basecolor"></texture>
+			<texture name="Normals" override="shared\buildings\props\fruit_basket\textures\fruit_basket_mata_normals"></texture>
+			<texture name="Masks" override="shared\buildings\props\fruit_basket\textures\fruit_basket_mata_masks"></texture>
+			<texture name="Masks2" override="shared\buildings\props\fruit_basket\textures\fruit_basket_mata_details"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+</material>

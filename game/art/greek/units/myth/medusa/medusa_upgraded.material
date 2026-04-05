@@ -1,0 +1,33 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="greek\units\myth\medusa\textures\medusa_upgraded_mata_basecolor"></texture>
+			<texture name="Normals" override="greek\units\myth\medusa\textures\medusa_upgraded_mata_normals"></texture>
+			<texture name="Masks" override="greek\units\myth\medusa\textures\medusa_upgraded_mata_masks"></texture>
+			<texture name="Masks2" override="greek\units\myth\medusa\textures\medusa_upgraded_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_green_basecolor"></texture>
+			<int name="Use Gradient" override="1"></int>
+		</parameters>
+	</submaterial>
+	<submaterial name="matc">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="greek\units\myth\medusa\textures\medusa_upgraded_matc_basecolor"></texture>
+			<texture name="Normals" override="greek\units\myth\medusa\textures\medusa_upgraded_matc_normals"></texture>
+			<texture name="Masks" override="greek\units\myth\medusa\textures\medusa_upgraded_matc_masks"></texture>
+			<texture name="Masks2" override="greek\units\myth\medusa\textures\medusa_upgraded_matc_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_green_basecolor"></texture>
+		</parameters>
+	</submaterial>
+	<submaterial name="matb">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="greek\units\myth\medusa\textures\medusa_upgraded_matb_basecolor"></texture>
+			<texture name="Normals" override="greek\units\myth\medusa\textures\medusa_upgraded_matb_normals"></texture>
+			<texture name="Masks" override="greek\units\myth\medusa\textures\medusa_upgraded_matb_masks"></texture>
+			<texture name="Masks2" override="greek\units\myth\medusa\textures\medusa_upgraded_matb_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_green_basecolor"></texture>
+		</parameters>
+	</submaterial>
+</material>

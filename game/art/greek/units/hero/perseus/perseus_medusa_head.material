@@ -1,0 +1,12 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="greek\units\hero\perseus\textures\perseus_medusa_head_basecolor"></texture>
+			<texture name="Normals" override="greek\units\hero\perseus\textures\perseus_medusa_head_normals"></texture>
+			<texture name="Masks" override="greek\units\hero\perseus\textures\perseus_medusa_head_masks"></texture>
+			<texture name="Masks2" override="greek\units\hero\perseus\textures\perseus_medusa_head_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_green_basecolor"></texture>
+		</parameters>
+	</submaterial>
+</material>

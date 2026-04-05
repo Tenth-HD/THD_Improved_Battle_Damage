@@ -1,0 +1,13 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="japanese\units\archery\yumi_horse_archer\textures\yumi_horse_archer_helm_upgrade1_mata_metalmask"></texture>
+			<texture name="Normals" override="japanese\units\archery\yumi_horse_archer\textures\yumi_horse_archer_helm_upgrade1_mata_normals"></texture>
+			<texture name="Masks" override="japanese\units\archery\yumi_horse_archer\textures\yumi_horse_archer_helm_upgrade1_mata_masks"></texture>
+			<texture name="Masks2" override="japanese\units\archery\yumi_horse_archer\textures\yumi_horse_archer_helm_upgrade1_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Metallic Swatch" override="1"></int>
+		</parameters>
+	</submaterial>
+</material>

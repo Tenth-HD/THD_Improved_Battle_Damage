@@ -1,0 +1,29 @@
+<material>
+	<submaterial name="matA">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="greek_demeter\units\hero\iolaus\textures\iolaus_chariot_horse_matb_basecolor"></texture>
+			<texture name="Normals" override="greek_demeter\units\hero\iolaus\textures\iolaus_chariot_horse_matb_normals"></texture>
+			<texture name="Masks" override="greek_demeter\units\hero\iolaus\textures\iolaus_chariot_horse_matb_masks"></texture>
+			<texture name="Masks2" override="greek_demeter\units\hero\iolaus\textures\iolaus_chariot_horse_matb_masks2"></texture>
+			<int name="Use Gradient" override="1"></int>
+			<float name="AO Gamma" override="-1.2150"></float>
+			<float name="AO Intensity" override="0.1700"></float>
+		</parameters>
+		<permutations variant="0">
+			<permutation>ALPHA_CUT_OUT</permutation>
+		</permutations>
+	</submaterial>
+	<submaterial name="matB">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="greek_demeter\units\hero\iolaus\textures\iolaus_chariot_horse_mata_basecolor"></texture>
+			<texture name="Normals" override="greek_demeter\units\hero\iolaus\textures\iolaus_chariot_horse_mata_normals"></texture>
+			<texture name="Masks" override="greek_demeter\units\hero\iolaus\textures\iolaus_chariot_horse_mata_masks"></texture>
+			<texture name="Masks2" override="greek_demeter\units\hero\iolaus\textures\iolaus_chariot_horse_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<float name="AO Gamma" override="-1.6350"></float>
+			<float name="AO Intensity" override="0.3830"></float>
+		</parameters>
+	</submaterial>
+</material>

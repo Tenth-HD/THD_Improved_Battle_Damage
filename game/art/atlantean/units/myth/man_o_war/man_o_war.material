@@ -1,0 +1,20 @@
+<material>
+	<submaterial name="matA">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="atlantean\units\myth\man_o_war\textures\man_o_war_mata_basecolor"></texture>
+			<texture name="Normals" override="atlantean\units\myth\man_o_war\textures\man_o_war_mata_normals"></texture>
+			<texture name="Masks" override="atlantean\units\myth\man_o_war\textures\man_o_war_mata_masks"></texture>
+			<texture name="Masks2" override="atlantean\units\myth\man_o_war\textures\man_o_war_mata_masks2"></texture>
+			<texture name="Emissive Texture" override="atlantean\units\myth\man_o_war\textures\man_o_war_mata_emissive"></texture>
+			<texture name="Emissive Crawling Texture" override="vfx\textures\emissive_crawling01"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_purple_basecolor"></texture>
+			<float name="Emissive Intensity" override="7.5750"></float>
+			<float name="Emissive Crawling UV Scale" override="1.4660"></float>
+			<float name="Emissive Crawling Speed" override="0.0720"></float>
+		</parameters>
+		<permutations variant="0">
+			<permutation>EMISSIVE</permutation>
+		</permutations>
+	</submaterial>
+</material>

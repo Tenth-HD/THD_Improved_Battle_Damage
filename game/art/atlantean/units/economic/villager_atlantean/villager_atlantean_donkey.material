@@ -1,0 +1,32 @@
+<material>
+	<submaterial name="matB">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="atlantean\units\economic\villager_atlantean\textures\villager_atlantean_donkey_matb_basecolor"></texture>
+			<texture name="Normals" override="atlantean\units\economic\villager_atlantean\textures\villager_atlantean_donkey_matb_normals"></texture>
+			<texture name="Masks" override="atlantean\units\economic\villager_atlantean\textures\villager_atlantean_donkey_matb_masks"></texture>
+			<texture name="Masks2" override="atlantean\units\economic\villager_atlantean\textures\villager_atlantean_donkey_matb_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Use Gradient" override="1"></int>
+		</parameters>
+	</submaterial>
+	<submaterial name="matA">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="atlantean\units\economic\villager_atlantean\textures\villager_atlantean_donkey_mata_basecolor"></texture>
+			<texture name="Normals" override="atlantean\units\economic\villager_atlantean\textures\villager_atlantean_donkey_mata_normals"></texture>
+			<texture name="Masks" override="atlantean\units\economic\villager_atlantean\textures\villager_atlantean_donkey_mata_masks"></texture>
+			<texture name="Masks2" override="atlantean\units\economic\villager_atlantean\textures\villager_atlantean_donkey_mata_masks2"></texture>
+		</parameters>
+	</submaterial>
+	<submaterial name="matC">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="atlantean\units\economic\villager_atlantean\textures\villager_atlantean_donkey_crate_open_matc_basecolor"></texture>
+			<texture name="Normals" override="atlantean\units\economic\villager_atlantean\textures\villager_atlantean_donkey_crate_open_matc_normals"></texture>
+			<texture name="Masks" override="atlantean\units\economic\villager_atlantean\textures\villager_atlantean_donkey_crate_open_matc_masks"></texture>
+			<texture name="Masks2" override="atlantean\units\economic\villager_atlantean\textures\villager_atlantean_donkey_crate_open_matc_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+</material>

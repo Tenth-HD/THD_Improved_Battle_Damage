@@ -1,0 +1,24 @@
+<material>
+	<submaterial name="matA">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="norse\units\myth\einheri\textures\einheri_mata_basecolor"></texture>
+			<texture name="Normals" override="norse\units\myth\einheri\textures\einheri_mata_normals"></texture>
+			<texture name="Masks" override="norse\units\myth\einheri\textures\einheri_mata_masks"></texture>
+			<texture name="Masks2" override="norse\units\myth\einheri\textures\einheri_mata_masks2"></texture>
+			<texture name="Emissive Texture" override="norse\units\myth\einheri\textures\einheri_mata_emissive"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_rainbow_basecolor"></texture>
+			<float name="Emissive Intensity" override="10.0000"></float>
+			<float name="Emissive Crawling Speed" override="0.1650"></float>
+			<float name="Emissive Crawling UV Scale" override="2.6410"></float>
+			<texture name="Emissive Crawling Texture" override="norse\units\myth\einheri\textures\einheri_mata_crawling"></texture>
+			<int name="Use Gradient" override="1"></int>
+			<float name="Gradient Height" override="3.5000"></float>
+			<float name="Gradient Top Strength" override="0.5000"></float>
+			<float name="Gradient Bottom Strength" override="0.5000"></float>
+		</parameters>
+		<permutations variant="0">
+			<permutation>EMISSIVE</permutation>
+		</permutations>
+	</submaterial>
+</material>

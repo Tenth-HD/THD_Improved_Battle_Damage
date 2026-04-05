@@ -1,0 +1,29 @@
+<material>
+	<submaterial name="matA">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="egyptian\units\economic\caravan_egyptian\textures\caravan_egyptian_mata_basecolor"></texture>
+			<texture name="Normals" override="egyptian\units\economic\caravan_egyptian\textures\caravan_egyptian_mata_normals"></texture>
+			<texture name="Masks" override="egyptian\units\economic\caravan_egyptian\textures\caravan_egyptian_mata_masks"></texture>
+			<texture name="Masks2" override="egyptian\units\economic\caravan_egyptian\textures\caravan_egyptian_mata_masks2"></texture>
+			<int name="Use Gradient" override="1"></int>
+			<float name="Gradient Height" override="3.0000"></float>
+		</parameters>
+		<permutations variant="0">
+			<permutation>ALPHA_CUT_OUT</permutation>
+		</permutations>
+	</submaterial>
+	<submaterial name="matB">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="egyptian\units\economic\caravan_egyptian\textures\caravan_egyptian_matb_basecolor"></texture>
+			<texture name="Normals" override="egyptian\units\economic\caravan_egyptian\textures\caravan_egyptian_matb_normals"></texture>
+			<texture name="Masks" override="egyptian\units\economic\caravan_egyptian\textures\caravan_egyptian_matb_masks"></texture>
+			<texture name="Masks2" override="egyptian\units\economic\caravan_egyptian\textures\caravan_egyptian_matb_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Use Gradient" override="1"></int>
+			<float name="Gradient Height" override="3.0000"></float>
+			<float name="Gradient Bottom Strength" override="1.0000"></float>
+		</parameters>
+	</submaterial>
+</material>

@@ -1,0 +1,12 @@
+<material>
+	<submaterial name="matB">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="greek\units\myth\medusa\textures\medusa_upgraded_bow_matb_basecolor"></texture>
+			<texture name="Normals" override="greek\units\myth\medusa\textures\medusa_upgraded_bow_matb_normals"></texture>
+			<texture name="Masks" override="greek\units\myth\medusa\textures\medusa_upgraded_bow_matb_masks"></texture>
+			<texture name="Masks2" override="greek\units\myth\medusa\textures\medusa_upgraded_bow_matb_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+</material>

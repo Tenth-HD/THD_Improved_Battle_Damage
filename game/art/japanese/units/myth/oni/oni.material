@@ -1,0 +1,13 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="japanese\units\myth\oni\textures\oni_mata_basecolor"></texture>
+			<texture name="Normals" override="japanese\units\myth\oni\textures\oni_mata_normals"></texture>
+			<texture name="Masks" override="japanese\units\myth\oni\textures\oni_mata_masks"></texture>
+			<texture name="Masks2" override="japanese\units\myth\oni\textures\oni_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_yellow_basecolor"></texture>
+			<float name="Player Color Threshold" override="0.0600"></float>
+		</parameters>
+	</submaterial>
+</material>

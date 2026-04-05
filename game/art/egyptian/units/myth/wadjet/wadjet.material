@@ -1,0 +1,12 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="egyptian\units\myth\wadjet\textures\wadjet_mata_basecolor"></texture>
+			<texture name="Normals" override="egyptian\units\myth\wadjet\textures\wadjet_mata_normals"></texture>
+			<texture name="Masks" override="egyptian\units\myth\wadjet\textures\wadjet_mata_masks"></texture>
+			<texture name="Masks2" override="egyptian\units\myth\wadjet\textures\wadjet_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_yellow_basecolor"></texture>
+		</parameters>
+	</submaterial>
+</material>

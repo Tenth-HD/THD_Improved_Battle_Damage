@@ -1,0 +1,11 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="chinese\units\cavalry\qing_qi\textures\qing_qi_helm_baseline_mata_basecolor"></texture>
+			<texture name="Normals" override="chinese\units\cavalry\qing_qi\textures\qing_qi_helm_baseline_mata_normals"></texture>
+			<texture name="Masks" override="chinese\units\cavalry\qing_qi\textures\qing_qi_helm_baseline_mata_masks"></texture>
+			<texture name="Masks2" override="chinese\units\cavalry\qing_qi\textures\qing_qi_helm_baseline_mata_masks2"></texture>
+		</parameters>
+	</submaterial>
+</material>

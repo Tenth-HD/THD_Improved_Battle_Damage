@@ -1,0 +1,11 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="japanese\units\attachments\yumi\textures\yumi_j_arrow_mata_basecolor"></texture>
+			<texture name="Normals" override="japanese\units\attachments\yumi\textures\yumi_j_arrow_mata_normals"></texture>
+			<texture name="Masks" override="japanese\units\attachments\yumi\textures\yumi_j_arrow_mata_masks"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+</material>

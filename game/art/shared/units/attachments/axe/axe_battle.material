@@ -1,0 +1,12 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="shared\units\attachments\axe\textures\axe_battle_basecolor"></texture>
+			<texture name="Normals" override="shared\units\attachments\axe\textures\axe_battle_normals"></texture>
+			<texture name="Masks" override="shared\units\attachments\axe\textures\axe_battle_masks"></texture>
+			<texture name="Masks2" override="shared\units\attachments\axe\textures\axe_battle_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+</material>

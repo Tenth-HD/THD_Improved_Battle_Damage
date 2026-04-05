@@ -1,0 +1,17 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="chinese\units\hero\wen_zhong\textures\wen_zhong_mount_mata_basecolor"></texture>
+			<texture name="Normals" override="chinese\units\hero\wen_zhong\textures\wen_zhong_mount_mata_normals"></texture>
+			<texture name="Masks" override="chinese\units\hero\wen_zhong\textures\wen_zhong_mount_mata_masks"></texture>
+			<texture name="Masks2" override="chinese\units\hero\wen_zhong\textures\wen_zhong_mount_mata_masks2"></texture>
+			<float name="Iridescent Intensity" override="0.0820"></float>
+			<float name="Center" override="0.5120"></float>
+			<float name="Range" override="0.5910"></float>
+		</parameters>
+		<permutations variant="0">
+			<permutation>IRIDESCENT</permutation>
+		</permutations>
+	</submaterial>
+</material>

@@ -1,0 +1,36 @@
+<material>
+	<submaterial name="matB">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="Masks" override="greek_demeter\units\archery\amazonarcher\textures\amazon_archer_bow_baseline_masks"></texture>
+			<texture name="Normals" override="greek_demeter\units\archery\amazonarcher\textures\amazon_archer_bow_baseline_normals"></texture>
+			<texture name="BaseColor" override="greek_demeter\units\archery\amazonarcher\textures\amazon_archer_bow_baseline_basecolor"></texture>
+			<texture name="Masks2" override="greek_demeter\units\archery\amazonarcher\textures\amazon_archer_bow_baseline_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+		<parameters variant="1">
+			<texture name="Masks" override="greek_demeter\units\archery\amazonarcher\textures\amazon_archer_bow_upgrade1_masks"></texture>
+			<texture name="Normals" override="greek_demeter\units\archery\amazonarcher\textures\amazon_archer_bow_upgrade1_normals"></texture>
+			<texture name="BaseColor" override="greek_demeter\units\archery\amazonarcher\textures\amazon_archer_bow_upgrade1_basecolor"></texture>
+			<texture name="Masks2" override="greek_demeter\units\archery\amazonarcher\textures\amazon_archer_bow_upgrade1_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Metallic Swatch" override="2"></int>
+		</parameters>
+		<parameters variant="2">
+			<texture name="Masks" override="greek_demeter\units\archery\amazonarcher\textures\amazon_archer_bow_upgrade2_masks"></texture>
+			<texture name="Normals" override="greek_demeter\units\archery\amazonarcher\textures\amazon_archer_bow_upgrade2_normals"></texture>
+			<texture name="BaseColor" override="greek_demeter\units\archery\amazonarcher\textures\amazon_archer_bow_upgrade2_basecolor"></texture>
+			<texture name="Masks2" override="greek_demeter\units\archery\amazonarcher\textures\amazon_archer_bow_upgrade2_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Metallic Swatch" override="3"></int>
+		</parameters>
+		<parameters variant="3">
+			<texture name="Masks" override="greek_demeter\units\archery\amazonarcher\textures\amazon_archer_bow_upgrade3_masks"></texture>
+			<texture name="Normals" override="greek_demeter\units\archery\amazonarcher\textures\amazon_archer_bow_upgrade3_normals"></texture>
+			<texture name="BaseColor" override="greek_demeter\units\archery\amazonarcher\textures\amazon_archer_bow_upgrade3_basecolor"></texture>
+			<texture name="Masks2" override="greek_demeter\units\archery\amazonarcher\textures\amazon_archer_bow_upgrade3_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Metallic Swatch" override="4"></int>
+		</parameters>
+	</submaterial>
+</material>

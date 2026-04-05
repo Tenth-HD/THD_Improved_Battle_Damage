@@ -1,0 +1,26 @@
+<material>
+	<submaterial name="matB">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="Normals" override="egyptian\units\archery\chariot_archer\textures\chariot_archer_horse_bronze_matb_normals"></texture>
+			<texture name="Masks" override="egyptian\units\archery\chariot_archer\textures\chariot_archer_horse_bronze_matb_masks"></texture>
+			<texture name="Masks2" override="egyptian\units\archery\chariot_archer\textures\chariot_archer_horse_bronze_matb_masks2"></texture>
+			<texture name="BaseColor" override="egyptian\units\archery\chariot_archer\textures\chariot_archer_horse_bronze_matb_metalmask"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Metallic Swatch" override="2"></int>
+		</parameters>
+	</submaterial>
+	<submaterial name="matA">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="Normals" override="egyptian\units\archery\chariot_archer\textures\chariot_archer_horse_bronze_mata_normals"></texture>
+			<texture name="Masks" override="egyptian\units\archery\chariot_archer\textures\chariot_archer_horse_bronze_mata_masks"></texture>
+			<texture name="BaseColor" override="egyptian\units\archery\chariot_archer\textures\chariot_archer_horse_bronze_mata_metalmask"></texture>
+			<int name="Use Gradient" override="1"></int>
+			<float name="Gradient Top Strength" override="0.0000"></float>
+		</parameters>
+		<permutations variant="0">
+			<permutation>ALPHA_CUT_OUT</permutation>
+		</permutations>
+	</submaterial>
+</material>

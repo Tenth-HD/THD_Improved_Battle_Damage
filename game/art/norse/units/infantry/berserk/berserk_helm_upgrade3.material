@@ -1,0 +1,45 @@
+<material>
+	<submaterial name="matA">
+		<materialdef name="opaque_lit_doublesided"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="norse\units\infantry\berserk\textures\berserk_helm_upgrade3_iron_mata_basecolor"></texture>
+			<texture name="Normals" override="norse\units\infantry\berserk\textures\berserk_helm_upgrade3_iron_mata_normals"></texture>
+			<texture name="Masks" override="norse\units\infantry\berserk\textures\berserk_helm_upgrade3_iron_mata_masks"></texture>
+			<texture name="Masks2" override="norse\units\infantry\berserk\textures\berserk_helm_upgrade3_iron_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+		<parameters variant="1">
+			<texture name="BaseColor" override="norse\units\infantry\berserk\textures\berserk_helm_upgrade3_bronze_mata_basecolor"></texture>
+			<texture name="Normals" override="norse\units\infantry\berserk\textures\berserk_helm_upgrade3_bronze_mata_normals"></texture>
+			<texture name="Masks" override="norse\units\infantry\berserk\textures\berserk_helm_upgrade3_bronze_mata_masks"></texture>
+			<texture name="Masks2" override="norse\units\infantry\berserk\textures\berserk_helm_upgrade3_bronze_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+		<parameters variant="2">
+			<texture name="BaseColor" override="norse\units\infantry\berserk\textures\berserk_helm_upgrade3_silver_mata_basecolor"></texture>
+			<texture name="Normals" override="norse\units\infantry\berserk\textures\berserk_helm_upgrade3_silver_mata_normals"></texture>
+			<texture name="Masks" override="norse\units\infantry\berserk\textures\berserk_helm_upgrade3_silver_mata_masks"></texture>
+			<texture name="Masks2" override="norse\units\infantry\berserk\textures\berserk_helm_upgrade3_silver_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+		<parameters variant="3">
+			<texture name="BaseColor" override="norse\units\infantry\berserk\textures\berserk_helm_upgrade3_gold_mata_basecolor"></texture>
+			<texture name="Normals" override="norse\units\infantry\berserk\textures\berserk_helm_upgrade3_gold_mata_normals"></texture>
+			<texture name="Masks" override="norse\units\infantry\berserk\textures\berserk_helm_upgrade3_gold_mata_masks"></texture>
+			<texture name="Masks2" override="norse\units\infantry\berserk\textures\berserk_helm_upgrade3_gold_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+		<permutations variant="0">
+			<permutation>ALPHA_CUT_OUT</permutation>
+		</permutations>
+		<permutations variant="1">
+			<permutation>ALPHA_CUT_OUT</permutation>
+		</permutations>
+		<permutations variant="2">
+			<permutation>ALPHA_CUT_OUT</permutation>
+		</permutations>
+		<permutations variant="3">
+			<permutation>ALPHA_CUT_OUT</permutation>
+		</permutations>
+	</submaterial>
+</material>

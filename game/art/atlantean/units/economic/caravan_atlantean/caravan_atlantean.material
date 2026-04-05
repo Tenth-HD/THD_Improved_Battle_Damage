@@ -1,0 +1,12 @@
+<material>
+	<submaterial name="matA">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="atlantean\units\economic\caravan_atlantean\textures\caravan_atlantean_mata_basecolor"></texture>
+			<texture name="Normals" override="atlantean\units\economic\caravan_atlantean\textures\caravan_atlantean_mata_normals"></texture>
+			<texture name="Masks" override="atlantean\units\economic\caravan_atlantean\textures\caravan_atlantean_mata_masks"></texture>
+			<texture name="Masks2" override="atlantean\units\economic\caravan_atlantean\textures\caravan_atlantean_mata_masks2"></texture>
+			<int name="Use Gradient" override="1"></int>
+		</parameters>
+	</submaterial>
+</material>

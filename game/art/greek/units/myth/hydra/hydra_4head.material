@@ -1,0 +1,16 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="greek\units\myth\hydra\textures\hydra_4head_mata_basecolor"></texture>
+			<texture name="Normals" override="greek\units\myth\hydra\textures\hydra_4head_mata_normals"></texture>
+			<texture name="Masks" override="greek\units\myth\hydra\textures\hydra_4head_mata_masks"></texture>
+			<texture name="Masks2" override="greek\units\myth\hydra\textures\hydra_4head_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_purple_basecolor"></texture>
+			<int name="Use Gradient" override="1"></int>
+			<float name="Gradient Height" override="2.2000"></float>
+			<float name="Gradient Top Strength" override="0.0000"></float>
+			<float name="Gradient Bottom Strength" override="0.5000"></float>
+		</parameters>
+	</submaterial>
+</material>

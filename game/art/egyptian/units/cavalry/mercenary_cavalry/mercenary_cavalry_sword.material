@@ -1,0 +1,12 @@
+<material>
+	<submaterial name="matC">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="egyptian\units\cavalry\mercenary_cavalry\textures\mercenary_cavalry_sword_matc_metalmask"></texture>
+			<texture name="Normals" override="egyptian\units\cavalry\mercenary_cavalry\textures\mercenary_cavalry_sword_matc_normals"></texture>
+			<texture name="Masks" override="egyptian\units\cavalry\mercenary_cavalry\textures\mercenary_cavalry_sword_matc_masks"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Metallic Swatch" override="1"></int>
+		</parameters>
+	</submaterial>
+</material>

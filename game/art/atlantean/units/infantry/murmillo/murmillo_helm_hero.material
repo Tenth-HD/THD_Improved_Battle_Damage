@@ -1,0 +1,12 @@
+<material>
+	<submaterial name="matA">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="atlantean\units\infantry\murmillo\textures\murmillo_helm_hero_mata_basecolor"></texture>
+			<texture name="Normals" override="atlantean\units\infantry\murmillo\textures\murmillo_helm_hero_mata_normals"></texture>
+			<texture name="Masks" override="atlantean\units\infantry\murmillo\textures\murmillo_helm_hero_mata_masks"></texture>
+			<texture name="Masks2" override="atlantean\units\infantry\murmillo\textures\murmillo_helm_hero_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+</material>

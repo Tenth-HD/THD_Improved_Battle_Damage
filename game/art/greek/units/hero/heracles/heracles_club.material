@@ -1,0 +1,13 @@
+<material>
+	<submaterial name="matB">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="greek\units\hero\heracles\textures\heracles_club_basecolor"></texture>
+			<texture name="Normals" override="greek\units\hero\heracles\textures\heracles_club_normals"></texture>
+			<texture name="Masks" override="greek\units\hero\heracles\textures\heracles_club_masks"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Use Gradient" override="1"></int>
+			<float name="Gradient Height" override="1.0000"></float>
+		</parameters>
+	</submaterial>
+</material>

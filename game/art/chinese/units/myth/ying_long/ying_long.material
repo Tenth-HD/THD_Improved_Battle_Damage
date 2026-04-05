@@ -1,0 +1,21 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="chinese\units\myth\ying_long\texture\ying_long_mata_basecolor"></texture>
+			<texture name="Normals" override="chinese\units\myth\ying_long\texture\ying_long_mata_normals"></texture>
+			<texture name="Masks" override="chinese\units\myth\ying_long\texture\ying_long_mata_masks"></texture>
+			<texture name="Masks2" override="chinese\units\myth\ying_long\texture\ying_long_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_yellow_basecolor"></texture>
+			<int name="Use Iridescent Specular" override="1"></int>
+			<float name="Iridescent Intensity" override="0.4060"></float>
+			<float name="Center" override="0.1470"></float>
+			<float name="Range" override="-0.2420"></float>
+			<int name="Use Gradient" override="1"></int>
+			<float name="Gradient Height" override="1.0910"></float>
+		</parameters>
+		<permutations variant="0">
+			<permutation>IRIDESCENT</permutation>
+		</permutations>
+	</submaterial>
+</material>

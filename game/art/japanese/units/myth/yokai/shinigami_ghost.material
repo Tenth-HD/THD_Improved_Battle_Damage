@@ -1,0 +1,17 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="edge_emission"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="japanese\units\myth\shinigami\textures\shinigami_mata_basecolor"></texture>
+			<texture name="Normals" override="japanese\units\myth\shinigami\textures\shinigami_mata_normals"></texture>
+			<texture name="Masks" override="japanese\units\myth\shinigami\textures\shinigami_mata_masks"></texture>
+			<texture name="Masks2" override="japanese\units\myth\shinigami\textures\shinigami_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_purple_basecolor"></texture>
+			<float name="Emission Intensity" override="2.9610"></float>
+			<float name="Fresnel Pow" override="3.9260"></float>
+			<float name="Fresnel Base" override="0.4950"></float>
+			<float name="Iridescent Intensity" override="0.1780"></float>
+			<int name="Emissive Type" override="1"></int>
+		</parameters>
+	</submaterial>
+</material>

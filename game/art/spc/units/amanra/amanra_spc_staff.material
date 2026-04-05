@@ -1,0 +1,18 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="spc\units\amanra\textures\amanra_spc_staff_mata_basecolor"></texture>
+			<texture name="Normals" override="spc\units\amanra\textures\amanra_spc_staff_mata_normals"></texture>
+			<texture name="Masks" override="spc\units\amanra\textures\amanra_spc_staff_mata_masks"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+		<parameters variant="1">
+			<texture name="BaseColor" override="spc\units\amanra\textures\amanra_spc_staff_mata_basecolor"></texture>
+			<texture name="Normals" override="spc\units\amanra\textures\amanra_spc_staff_mata_normals"></texture>
+			<texture name="Masks" override="spc\units\amanra\textures\amanra_spc_staff_mata_masks"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Metallic Swatch" override="4"></int>
+		</parameters>
+	</submaterial>
+</material>

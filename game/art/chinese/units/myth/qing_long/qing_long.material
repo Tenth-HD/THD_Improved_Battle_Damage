@@ -1,0 +1,26 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="chinese\units\myth\qing_long\textures\qing_long_mata_basecolor"></texture>
+			<texture name="Normals" override="chinese\units\myth\qing_long\textures\qing_long_mata_normals"></texture>
+			<texture name="Masks" override="chinese\units\myth\qing_long\textures\qing_long_mata_masks"></texture>
+			<texture name="Masks2" override="chinese\units\myth\qing_long\textures\qing_long_mata_masks2"></texture>
+			<texture name="Emissive Texture" override="chinese\units\myth\qing_long\textures\qing_long_mata_emissive"></texture>
+			<texture name="Emissive Crawling Texture" override="chinese\units\myth\qing_long\textures\qing_long_mata_emissive_02"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_blue_basecolor"></texture>
+			<float name="Emissive Intensity" override="4.0370"></float>
+			<float name="Emissive Crawling Speed" override="0.0000"></float>
+			<float name="Emissive Crawling UV Scale" override="0.0000"></float>
+			<float name="Iridescent Intensity" override="0.5240"></float>
+			<float name="Center" override="0.4010"></float>
+			<float name="Range" override="0.4580"></float>
+			<int name="Use Gradient" override="1"></int>
+			<float name="Gradient Height" override="0.3690"></float>
+		</parameters>
+		<permutations variant="0">
+			<permutation>IRIDESCENT</permutation>
+			<permutation>EMISSIVE</permutation>
+		</permutations>
+	</submaterial>
+</material>

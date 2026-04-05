@@ -1,0 +1,11 @@
+<material>
+	<submaterial name="matA">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="Normals" override="norse\units\siege\portable_ram\textures\portable_ram_mata_normals"></texture>
+			<texture name="Masks" override="norse\units\siege\portable_ram\textures\portable_ram_mata_masks"></texture>
+			<texture name="BaseColor" override="norse\units\siege\portable_ram\textures\portable_ram_mata_metalmask"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+</material>

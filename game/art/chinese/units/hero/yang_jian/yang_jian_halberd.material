@@ -1,0 +1,11 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="chinese\units\hero\yang_jian\textures\yang_jian_halberd_mata_basecolor"></texture>
+			<texture name="Normals" override="chinese\units\hero\yang_jian\textures\yang_jian_halberd_mata_normals"></texture>
+			<texture name="Masks" override="chinese\units\hero\yang_jian\textures\yang_jian_halberd_mata_masks"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+</material>

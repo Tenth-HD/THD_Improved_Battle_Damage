@@ -1,0 +1,12 @@
+<material>
+	<submaterial name="matB">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="greek\units\economic\caravan_greek\textures\caravan_greek_cargo_matb_basecolor"></texture>
+			<texture name="Normals" override="greek\units\economic\caravan_greek\textures\caravan_greek_loaded_cargo_matb_normals"></texture>
+			<texture name="Masks" override="greek\units\economic\caravan_greek\textures\caravan_greek_loaded_cargo_matb_masks"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Use Gradient" override="1"></int>
+		</parameters>
+	</submaterial>
+</material>

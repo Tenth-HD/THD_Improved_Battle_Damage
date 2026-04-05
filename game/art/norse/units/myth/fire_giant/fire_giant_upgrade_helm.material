@@ -1,0 +1,11 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="norse\units\myth\fire_giant\textures\fire_giant_upgrade_helm_mata_basecolor"></texture>
+			<texture name="Normals" override="norse\units\myth\fire_giant\textures\fire_giant_upgrade_helm_mata_normals"></texture>
+			<texture name="Masks" override="norse\units\myth\fire_giant\textures\fire_giant_upgrade_helm_mata_masks"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+</material>

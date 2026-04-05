@@ -1,0 +1,14 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="atlantean\units\myth\centimanus\textures\centimanus_mata_basecolor"></texture>
+			<texture name="Normals" override="atlantean\units\myth\centimanus\textures\centimanus_mata_normals"></texture>
+			<texture name="Masks" override="atlantean\units\myth\centimanus\textures\centimanus_mata_masks"></texture>
+			<texture name="Masks2" override="atlantean\units\myth\centimanus\textures\centimanus_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_green_basecolor"></texture>
+			<int name="Use Gradient" override="1"></int>
+			<float name="Gradient Height" override="5.0000"></float>
+		</parameters>
+	</submaterial>
+</material>

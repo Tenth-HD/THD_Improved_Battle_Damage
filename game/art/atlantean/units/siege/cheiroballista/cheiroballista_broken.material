@@ -1,0 +1,16 @@
+<material>
+	<submaterial name="matA">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="atlantean\units\siege\cheiroballista\textures\cheiroballista_broken_baseline_mata_basecolor"></texture>
+			<texture name="Normals" override="atlantean\units\siege\cheiroballista\textures\cheiroballista_broken_baseline_mata_normals"></texture>
+			<texture name="Masks" override="atlantean\units\siege\cheiroballista\textures\cheiroballista_broken_baseline_mata_masks"></texture>
+			<texture name="Masks2" override="atlantean\units\siege\cheiroballista\textures\cheiroballista_weapon_upgrade1_mata_masks2"></texture>
+			<texture name="Details" override="atlantean\units\siege\cheiroballista\textures\cheiroballista broken_mata_details"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+		<permutations variant="0">
+			<permutation>BUILDING_DETAILS</permutation>
+		</permutations>
+	</submaterial>
+</material>

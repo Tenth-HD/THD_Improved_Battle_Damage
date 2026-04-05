@@ -1,0 +1,30 @@
+<material>
+	<submaterial name="matb">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="atlantean\units\myth\argus\textures\eyes_anim\argus_matb_basecolor"></texture>
+			<texture name="Normals" override="atlantean\units\myth\argus\textures\eyes_anim\argus_matb_normals"></texture>
+			<texture name="Masks" override="atlantean\units\myth\argus\textures\eyes_anim\argus_matb_masks"></texture>
+			<int name="Use Gradient" override="1"></int>
+		</parameters>
+	</submaterial>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit_doublesided"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="atlantean\units\myth\argus\textures\argus_upgrade_mata_basecolor"></texture>
+			<texture name="Normals" override="atlantean\units\myth\argus\textures\argus_upgrade_mata_normals"></texture>
+			<texture name="Masks" override="atlantean\units\myth\argus\textures\argus_upgrade_mata_masks"></texture>
+			<texture name="Masks2" override="atlantean\units\myth\argus\textures\argus_upgrade_mata_masks2"></texture>
+			<texture name="Emissive Texture" override="atlantean\units\myth\argus\textures\argus_mata_emissive"></texture>
+			<texture name="Emissive Crawling Texture" override="vfx\textures\emissive_crawling02_fire"></texture>
+			<float name="Emissive Crawling Speed" override="0.0720"></float>
+			<float name="Emissive Intensity" override="1.8840"></float>
+			<float name="Emissive Crawling UV Scale" override="0.6380"></float>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_green_basecolor"></texture>
+		</parameters>
+		<permutations variant="0">
+			<permutation>ALPHA_CUT_OUT</permutation>
+			<permutation>EMISSIVE</permutation>
+		</permutations>
+	</submaterial>
+</material>

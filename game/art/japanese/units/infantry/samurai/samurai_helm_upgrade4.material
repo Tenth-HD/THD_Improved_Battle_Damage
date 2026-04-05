@@ -1,0 +1,21 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="japanese\units\infantry\samurai\textures\samurai_helm_upgrade4_mata_basecolor"></texture>
+			<texture name="Normals" override="japanese\units\infantry\samurai\textures\samurai_helm_upgrade4_mata_normals"></texture>
+			<texture name="Masks" override="japanese\units\infantry\samurai\textures\samurai_helm_upgrade4_mata_masks"></texture>
+			<texture name="Masks2" override="japanese\units\infantry\samurai\textures\samurai_helm_upgrade4_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+	<submaterial name="matb">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="japanese\units\infantry\samurai\textures\samurai_helm_upgrade3_matb_basecolor"></texture>
+			<texture name="Normals" override="japanese\units\infantry\samurai\textures\samurai_helm_upgrade3_matb_normals"></texture>
+			<texture name="Masks" override="japanese\units\infantry\samurai\textures\samurai_helm_upgrade3_matb_masks"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+</material>
