@@ -44,7 +44,10 @@ v 1.0
 **Credits**
 
 CryShana for their .BAR editor tool https://github.com/CryShana/CryBarEditor
+
 KJohnHayes - For Myth unit blood color suggestion spreadsheet https://forums.ageofempires.com/t/blood-and-bones-pack-feedback/284996/21
+
+PNGWing for the crackle texture
 
 **Documentation**:
 
