@@ -23,6 +23,7 @@ Example Images:
 
 v 1.1
 
+    * Fixed mispelling in proto.XML causing error messages
     * Changed the yellow blood overlay to be more subtle
     * Added crackles to grey texture and readjusted coloring
     * Crackle effect was added to overlay mask to adjust damage appearance
