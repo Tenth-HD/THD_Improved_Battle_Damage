@@ -6,7 +6,7 @@
 			<texture name="Normals" override="norse_freyr\units\myth\fafnir\textures\fafnir_mata_normals"></texture>
 			<texture name="Masks" override="norse_freyr\units\myth\fafnir\textures\fafnir_mata_masks"></texture>
 			<texture name="Masks2" override="norse_freyr\units\myth\fafnir\textures\fafnir_mata_masks2"></texture>
-			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_yellow_basecolor"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_gold_basecolor"></texture>
 			<float name="Gradient Height" override="2.2000"></float>
 			<int name="Use Gradient" override="1"></int>
 			<float name="Gradient Top Strength" override="0.0000"></float>

@@ -1,7 +1,9 @@
 <blooddatamods>
+	<!--adds red to the random color myth bloodgroup-->
 	<bloodgroup name="defaultmythblood">
 		<protobloodgroup>mythbloodred</protobloodgroup>
 	</bloodgroup>
+<!--Creates new myth blood group if not already existing but using red blood-->
 	<bloodgroup name="mythbloodred">
 		<decal>blood_pool01</decal>
 		<decal>blood_pool02</decal>
@@ -61,6 +63,7 @@
 			bloodpack\buildings\props\bone_piles_medium_noskull_06
 		</noskullbonepile>
 	</bloodgroup>
+<!--Creates new blood group if not already existing-->
 	<bloodgroup name="titanbloodred">
 		<decal>blood_pool01</decal>
 		<decal>blood_pool02</decal>

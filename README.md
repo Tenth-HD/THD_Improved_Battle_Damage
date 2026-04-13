@@ -1,7 +1,7 @@
 # THD Improved Battle Damage - Blood and Bones DLC
 ![Alt text](Example_Images/Thumbnail.png "a title")
 
-**DISCLAIMER** - This mod is intended for <Prismatic Blood> to be enabled for the Blood and Bones DLC. It can work with it off, but the overlays will no longer match the unit blood and won't look look as well.
+**DISCLAIMER** - This mod is intended for <Prismatic Blood> to be enabled for the Blood and Bones DLC. While it can work with it off, the overlays will no longer match the unit blood and won't look as well.
 
 **Description:** This mod performs 2 things. First, every myth unit and some heroes have been assigned a specific prismatic blood color for their bloodpools and sprays, with the majority of myth units being assigned to red blood by default. Second, the <Bloodied Units> damage overlay has been revamped for the following:
 
@@ -21,6 +21,14 @@ Example Images:
 
 **Changelog**
 
+v 1.1
+
+    * Changed the yellow blood overlay to be more subtle
+    * Added crackles to grey texture and readjusted coloring
+    * Crackle effect was added to overlay mask to adjust damage appearance
+    * Added the item battle damage to Achilles' helmet
+    * Removed overlay from Shinigami as this caused missing textures
+    
 v 1.0
 
     * Added 8 new damage overlays of different colors

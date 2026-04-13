@@ -197,10 +197,10 @@
     <unit name="TitanAtlantean">
         <bloodgroupoverride>titanbloodyellownoskeleton</bloodgroupoverride>
     </unit>
-    <unit name="Qilin">
+    <unit name="QiLin">
         <bloodgroupoverride>mythbloodhorserainbow</bloodgroupoverride>
     </unit>
-    <unit name="Yazi">
+    <unit name="YaZi">
         <bloodgroupoverride>defaultbloodhorse</bloodgroupoverride>
     </unit>
     <unit name="QiongQi">
