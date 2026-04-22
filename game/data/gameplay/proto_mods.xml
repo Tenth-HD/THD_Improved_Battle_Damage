@@ -1,9 +1,17 @@
 <protomods>
+<!--#### Blood group overrides to set unit blood colors ####-->
+<!--Greek Units -->
     <unit name="Hippocampus">
         <bloodgroupoverride>mythbloodred</bloodgroupoverride>
     </unit>
     <unit name="Centaur">
         <bloodgroupoverride>defaultbloodhorse</bloodgroupoverride>
+    </unit>
+    <unit name="Chiron">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="ChironSPC">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
     </unit>
     <unit name="Minotaur">
         <bloodgroupoverride>mythbloodred</bloodgroupoverride>
@@ -53,6 +61,7 @@
     <unit name="TitanCerberus">
         <bloodgroupoverride>titanbloodred</bloodgroupoverride>
     </unit>
+<!--Egyptian Units -->
     <unit name="Wadjet">
         <bloodgroupoverride>mythbloodyellow</bloodgroupoverride>
     </unit>
@@ -104,6 +113,7 @@
     <unit name="TitanBird">
         <bloodgroupoverride>mythbloodyellow</bloodgroupoverride>
     </unit>
+<!--Norse Units -->
     <unit name="Troll">
         <bloodgroupoverride>mythbloodred</bloodgroupoverride>
     </unit>
@@ -161,6 +171,7 @@
     <unit name="TitanYmir">
         <bloodgroupoverride>mythbloodblue</bloodgroupoverride>
     </unit>
+<!--Atlantean Units -->
     <unit name="Caladria">
         <bloodgroupoverride>mythbloodred</bloodgroupoverride>
     </unit>
@@ -197,6 +208,7 @@
     <unit name="TitanAtlantean">
         <bloodgroupoverride>titanbloodyellownoskeleton</bloodgroupoverride>
     </unit>
+<!--Chinese Units -->
     <unit name="QiLin">
         <bloodgroupoverride>mythbloodhorserainbow</bloodgroupoverride>
     </unit>
@@ -248,16 +260,35 @@
     <unit name="TitanXingTian">
         <bloodgroupoverride>titanbloodred</bloodgroupoverride>
     </unit>
+    <unit name="ChiYouSmall">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="ChiYouSPC">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="ChiYouBig">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+<!--Japanese Units -->
     <unit name="Kamaitachi">
         <bloodgroupoverride>mythbloodred</bloodgroupoverride>
     </unit>
     <unit name="Jorogumo">
         <bloodgroupoverride>mythbloodgreen</bloodgroupoverride>
     </unit>
+    <unit name="Magumo">
+        <bloodgroupoverride>mythbloodgreen</bloodgroupoverride>
+    </unit>
+    <unit name="YukiOnna">
+        <bloodgroupoverride>mythbloodrainbow</bloodgroupoverride>
+    </unit>
     <unit name="Wanyudo">
         <bloodgroupoverride>mythbloodyellow</bloodgroupoverride>
     </unit>
     <unit name="Tengu">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Sojobo">
         <bloodgroupoverride>mythbloodred</bloodgroupoverride>
     </unit>
     <unit name="Raiju">
@@ -298,5 +329,48 @@
     </unit>
     <unit name="TitanYamataNoOrochi">
         <bloodgroupoverride>mythbloodwhitegold</bloodgroupoverride>
+    </unit>
+<!--Aztec Units -->
+    <unit name="Tzitzimitl">
+        <bloodgroupoverride>mythbloodrainbow</bloodgroupoverride>
+    </unit>
+    <unit name="Tunkuluchu">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Tlacanexquimilli">
+        <bloodgroupoverride>mythbloodpurple</bloodgroupoverride>
+    </unit>
+    <unit name="TitanCipactli">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="SoulGuide">
+        <bloodgroupoverride>mythbloodpurple</bloodgroupoverride>
+    </unit>
+    <unit name="Quinametzin">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="ObsidianButterfly">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Maquizcoatl">
+        <bloodgroupoverride>mythbloodgreen</bloodgroupoverride>
+    </unit>
+    <unit name="LargeScorpion">
+        <bloodgroupoverride>mythbloodgreen</bloodgroupoverride>
+    </unit>
+    <unit name="CentzonTotochtin">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Ayotochtli">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
+    </unit>
+    <unit name="Axolotl">
+        <bloodgroupoverride>mythbloodrainbow</bloodgroupoverride>
+    </unit>
+    <unit name="AxolotlMutant">
+        <bloodgroupoverride>mythbloodrainbow</bloodgroupoverride>
+    </unit>
+    <unit name="Auizotl">
+        <bloodgroupoverride>mythbloodred</bloodgroupoverride>
     </unit>
 </protomods>

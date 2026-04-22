@@ -1,7 +1,9 @@
 # THD Improved Battle Damage - Blood and Bones DLC
 ![Alt text](Example_Images/Thumbnail.png "a title")
 
-**DISCLAIMER** - This mod is intended for <Prismatic Blood> to be enabled for the Blood and Bones DLC. While it can work with it off, the overlays will no longer match the unit blood and won't look as well. Last tested on AoM update version v.100.19.5934.0 (595758R).
+**DISCLAIMER** - This mod is intended for <Prismatic Blood> to be enabled for the Blood and Bones DLC. While it can work with it off, the overlays will no longer match the unit blood and won't look as well. Last tested on AoM update version v.100.19.10195.0 (600019R).
+
+**WHAT'S NEW:** Incorporated Aztec pantheon units and specified blood colors for missed campaign units
 
 **Description:** This mod performs 2 things. First, every myth unit and some heroes have been assigned a specific prismatic blood color for their bloodpools and sprays, with the majority of myth units being assigned to red blood by default. Second, the <Bloodied Units> damage overlay has been revamped for the following:
 
@@ -20,6 +22,11 @@ Example Images:
 ![Alt text](Example_Images/Example_Green_Damage2.png "Manticores")
 
 **Changelog**
+
+v 1.2
+    
+    * Specified blood colors for Aztec pantheon myth units
+    * Added campaign heroes and units
 
 v 1.1
     
