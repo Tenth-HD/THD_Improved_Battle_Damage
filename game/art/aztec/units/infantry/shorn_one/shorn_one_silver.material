@@ -1,0 +1,45 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit_doublesided"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="aztec\units\infantry\shorn_one\textures\shorn_one_silver_mata_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\infantry\shorn_one\textures\shorn_one_silver_mata_normals"></texture>
+			<texture name="Masks" override="aztec\units\infantry\shorn_one\textures\shorn_one_silver_mata_masks"></texture>
+			<texture name="Masks2" override="aztec\units\infantry\shorn_one\textures\shorn_one_silver_mata_masks2"></texture>
+			<int name="Metallic Swatch" override="3"></int>
+		</parameters>
+		<permutations variant="0">
+			<permutation>ALPHA_CUT_OUT</permutation>
+		</permutations>
+	</submaterial>
+	<submaterial name="matc">
+		<materialdef name="opaque_lit_doublesided"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="aztec\units\infantry\shorn_one\textures\shorn_one_silver_matc_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\infantry\shorn_one\textures\shorn_one_silver_matc_normals"></texture>
+			<texture name="Masks" override="aztec\units\infantry\shorn_one\textures\shorn_one_silver_matc_masks"></texture>
+			<texture name="Masks2" override="aztec\units\infantry\shorn_one\textures\shorn_one_silver_matc_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Metallic Swatch" override="3"></int>
+			<float name="Cloth Anim Speed" override="3.8450"></float>
+			<float name="Cloth Anim Freqeuency Y" override="9.1420"></float>
+			<float name="Cloth Anim Freqeuency" override="9.2060"></float>
+			<float name="Cloth Anim Top Inensity" override="0.0060"></float>
+			<float name="Cloth Anim Side Inensity" override="0.0060"></float>
+		</parameters>
+		<permutations variant="0">
+			<permutation>ALPHA_CUT_OUT</permutation>
+			<permutation>CLOTH</permutation>
+		</permutations>
+	</submaterial>
+	<submaterial name="matb">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="aztec\units\infantry\shorn_one\textures\shorn_one_silver_matb_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\infantry\shorn_one\textures\shorn_one_silver_matb_normals"></texture>
+			<texture name="Masks" override="aztec\units\infantry\shorn_one\textures\shorn_one_silver_matb_masks"></texture>
+			<texture name="Masks2" override="aztec\units\infantry\shorn_one\textures\shorn_one_silver_matb_masks2"></texture>
+			<int name="Metallic Swatch" override="3"></int>
+		</parameters>
+	</submaterial>
+</material>

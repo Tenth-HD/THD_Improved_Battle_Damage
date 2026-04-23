@@ -1,0 +1,14 @@
+<material>
+	<submaterial name="MatA">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="aztec\units\hero\warrior_priest\textures\warrior_priest_knife_mata_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\hero\warrior_priest\textures\warrior_priest_knife_mata_normals"></texture>
+			<texture name="Masks" override="aztec\units\hero\warrior_priest\textures\warrior_priest_knife_mata_masks"></texture>
+			<texture name="Masks2" override="aztec\units\hero\warrior_priest\textures\warrior_priest_knife_mata_masks2"></texture>
+			<texture name="Masks2" override="aztec\units\hero\warrior_priest\textures\warrior_priest_knife_mata_masks2"></texture>
+			<texture name="Details" override="aztec\units\hero\warrior_priest\textures\warrior_priest_knife_mata_details"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+</material>

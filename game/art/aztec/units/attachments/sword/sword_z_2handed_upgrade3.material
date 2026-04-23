@@ -1,0 +1,85 @@
+<material>
+	<submaterial name="matA">
+		<materialdef name="opaque_lit_doublesided"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="aztec\units\attachments\sword\textures\sword_z_2handed_upgrade3_mata_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\attachments\sword\textures\sword_z_2handed_upgrade3_mata_normals"></texture>
+			<texture name="Masks" override="aztec\units\attachments\sword\textures\sword_z_2handed_upgrade3_mata_masks"></texture>
+			<texture name="Masks2" override="aztec\units\attachments\sword\textures\sword_z_2handed_upgrade3_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<float name="Alpha Cutout Threshold" override="0.0430"></float>
+			<float name="Cloth Anim Speed" override="6.9360"></float>
+			<float name="Cloth Anim Freqeuency Y" override="10.0000"></float>
+			<float name="Cloth Anim Freqeuency" override="10.0000"></float>
+			<float name="Cloth Anim Top Inensity" override="0.0050"></float>
+			<float name="Cloth Anim Side Inensity" override="0.0090"></float>
+			<int name="Cloth Can Be Damaged" override="0"></int>
+			<int name="Metallic Swatch" override="5"></int>
+			<float name="Player Color Threshold" override="0.1970"></float>
+		</parameters>
+		<parameters variant="1">
+			<texture name="BaseColor" override="aztec\units\attachments\sword\textures\sword_z_2handed_upgrade3_mata_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\attachments\sword\textures\sword_z_2handed_upgrade3_mata_normals"></texture>
+			<texture name="Masks" override="aztec\units\attachments\sword\textures\sword_z_2handed_upgrade3_mata_masks"></texture>
+			<texture name="Masks2" override="aztec\units\attachments\sword\textures\sword_z_2handed_upgrade3_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<float name="Alpha Cutout Threshold" override="0.0430"></float>
+			<int name="Metallic Swatch" override="2"></int>
+			<float name="Cloth Anim Side Inensity" override="0.0090"></float>
+			<float name="Cloth Anim Top Inensity" override="0.0050"></float>
+			<float name="Cloth Anim Freqeuency" override="10.0000"></float>
+			<float name="Cloth Anim Freqeuency Y" override="10.0000"></float>
+			<float name="Cloth Anim Speed" override="6.9360"></float>
+			<int name="Cloth Can Be Damaged" override="0"></int>
+			<float name="Player Color Threshold" override="0.1990"></float>
+		</parameters>
+		<parameters variant="2">
+			<texture name="BaseColor" override="aztec\units\attachments\sword\textures\sword_z_2handed_upgrade3_mata_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\attachments\sword\textures\sword_z_2handed_upgrade3_mata_normals"></texture>
+			<texture name="Masks" override="aztec\units\attachments\sword\textures\sword_z_2handed_upgrade3_mata_masks"></texture>
+			<texture name="Masks2" override="aztec\units\attachments\sword\textures\sword_z_2handed_upgrade3_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<float name="Alpha Cutout Threshold" override="0.0430"></float>
+			<int name="Metallic Swatch" override="6"></int>
+			<float name="Cloth Anim Side Inensity" override="0.0090"></float>
+			<float name="Cloth Anim Top Inensity" override="0.0050"></float>
+			<float name="Cloth Anim Freqeuency" override="10.0000"></float>
+			<float name="Cloth Anim Freqeuency Y" override="10.0000"></float>
+			<float name="Cloth Anim Speed" override="6.9360"></float>
+			<int name="Cloth Can Be Damaged" override="0"></int>
+			<float name="Player Color Threshold" override="0.1960"></float>
+		</parameters>
+		<parameters variant="3">
+			<texture name="BaseColor" override="aztec\units\attachments\sword\textures\sword_z_2handed_upgrade3_mata_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\attachments\sword\textures\sword_z_2handed_upgrade3_mata_normals"></texture>
+			<texture name="Masks" override="aztec\units\attachments\sword\textures\sword_z_2handed_upgrade3_mata_masks"></texture>
+			<texture name="Masks2" override="aztec\units\attachments\sword\textures\sword_z_2handed_upgrade3_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<float name="Alpha Cutout Threshold" override="0.0430"></float>
+			<int name="Metallic Swatch" override="4"></int>
+			<float name="Cloth Anim Side Inensity" override="0.0090"></float>
+			<float name="Cloth Anim Top Inensity" override="0.0050"></float>
+			<float name="Cloth Anim Freqeuency" override="10.0000"></float>
+			<float name="Cloth Anim Freqeuency Y" override="10.0000"></float>
+			<float name="Cloth Anim Speed" override="6.9360"></float>
+			<int name="Cloth Can Be Damaged" override="0"></int>
+			<float name="Player Color Threshold" override="0.1990"></float>
+		</parameters>
+		<permutations variant="0">
+			<permutation>ALPHA_CUT_OUT</permutation>
+			<permutation>CLOTH</permutation>
+		</permutations>
+		<permutations variant="1">
+			<permutation>CLOTH</permutation>
+			<permutation>ALPHA_CUT_OUT</permutation>
+		</permutations>
+		<permutations variant="2">
+			<permutation>CLOTH</permutation>
+			<permutation>ALPHA_CUT_OUT</permutation>
+		</permutations>
+		<permutations variant="3">
+			<permutation>ALPHA_CUT_OUT</permutation>
+			<permutation>CLOTH</permutation>
+		</permutations>
+	</submaterial>
+</material>

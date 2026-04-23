@@ -1,0 +1,36 @@
+<material>
+	<submaterial name="matb">
+		<materialdef name="opaque_lit_doublesided"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="aztec\units\spc\quetzalcoatl\textures\quetzalcoatl_matb_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\spc\quetzalcoatl\textures\quetzalcoatl_matb_normals"></texture>
+			<texture name="Masks" override="aztec\units\spc\quetzalcoatl\textures\quetzalcoatl_matb_masks"></texture>
+			<texture name="Masks2" override="aztec\units\spc\quetzalcoatl\textures\quetzalcoatl_matb_masks2"></texture>
+		</parameters>
+		<permutations variant="0">
+			<permutation>ALPHA_CUT_OUT</permutation>
+		</permutations>
+	</submaterial>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="aztec\units\spc\quetzalcoatl\textures\quetzalcoatl_mata_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\spc\quetzalcoatl\textures\quetzalcoatl_mata_normals"></texture>
+			<texture name="Masks" override="aztec\units\spc\quetzalcoatl\textures\quetzalcoatl_mata_masks"></texture>
+			<texture name="Masks2" override="aztec\units\spc\quetzalcoatl\textures\quetzalcoatl_mata_masks2"></texture>
+		</parameters>
+	</submaterial>
+	<submaterial name="matc">
+		<materialdef name="opaque_lit_doublesided"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="aztec\units\spc\quetzalcoatl\textures\quetzalcoatl_matc_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\spc\quetzalcoatl\textures\quetzalcoatl_matc_normals"></texture>
+			<texture name="Masks" override="aztec\units\spc\quetzalcoatl\textures\quetzalcoatl_matc_masks"></texture>
+			<texture name="Masks2" override="aztec\units\spc\quetzalcoatl\textures\quetzalcoatl_matc_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+		<permutations variant="0">
+			<permutation>ALPHA_CUT_OUT</permutation>
+		</permutations>
+	</submaterial>
+</material>

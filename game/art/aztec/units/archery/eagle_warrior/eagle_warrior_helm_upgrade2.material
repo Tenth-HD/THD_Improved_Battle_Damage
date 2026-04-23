@@ -1,0 +1,16 @@
+<material>
+	<submaterial name="matb">
+		<materialdef name="opaque_lit_doublesided"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="aztec\units\archery\eagle_warrior\textures\eagle_warrior_helm_upgrade2_matb_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\archery\eagle_warrior\textures\eagle_warrior_helm_upgrade2_matb_normals"></texture>
+			<texture name="Masks" override="aztec\units\archery\eagle_warrior\textures\eagle_warrior_helm_upgrade2_matb_masks"></texture>
+			<texture name="Masks2" override="aztec\units\archery\eagle_warrior\textures\eagle_warrior_helm_upgrade2_matb_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Metallic Swatch" override="3"></int>
+		</parameters>
+		<permutations variant="0">
+			<permutation>ALPHA_CUT_OUT</permutation>
+		</permutations>
+	</submaterial>
+</material>
