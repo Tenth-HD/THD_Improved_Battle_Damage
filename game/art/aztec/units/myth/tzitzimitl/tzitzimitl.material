@@ -1,0 +1,61 @@
+<material>
+	<submaterial name="matB">
+		<materialdef name="opaque_lit_doublesided"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="aztec\units\myth\tzitzimitl\textures\tzitzimitl_mata_basecolor"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_rainbow_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\myth\tzitzimitl\textures\tzitzimitl_mata_normals"></texture>
+			<texture name="Masks" override="aztec\units\myth\tzitzimitl\textures\tzitzimitl_mata_masks"></texture>
+			<texture name="Masks2" override="aztec\units\myth\tzitzimitl\textures\tzitzimitl_mata_masks2"></texture>
+			<float name="Alpha Cutout Threshold" override="0.5000"></float>
+		</parameters>
+		<parameters variant="1">
+			<texture name="BaseColor" override="aztec\units\myth\tzitzimitl\textures\tzitzimitl_upgrade_mata_basecolor"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_rainbow_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\myth\tzitzimitl\textures\tzitzimitl_mata_normals"></texture>
+			<texture name="Masks" override="aztec\units\myth\tzitzimitl\textures\tzitzimitl_mata_masks"></texture>
+			<texture name="Masks2" override="aztec\units\myth\tzitzimitl\textures\tzitzimitl_mata_masks2"></texture>
+		</parameters>
+		<permutations variant="0">
+			<permutation>ALPHA_CUT_OUT</permutation>
+		</permutations>
+		<permutations variant="1">
+			<permutation>ALPHA_CUT_OUT</permutation>
+		</permutations>
+	</submaterial>
+	<submaterial name="matA">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="aztec\units\myth\tzitzimitl\textures\tzitzimitl_mata_basecolor"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_rainbow_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\myth\tzitzimitl\textures\tzitzimitl_mata_normals"></texture>
+			<texture name="Masks" override="aztec\units\myth\tzitzimitl\textures\tzitzimitl_mata_masks"></texture>
+			<texture name="Masks2" override="aztec\units\myth\tzitzimitl\textures\tzitzimitl_mata_masks2"></texture>
+			<float name="Emissive Intensity" override="2.6500"></float>
+			<float name="Emissive Crawling Speed" override="0.1200"></float>
+			<texture name="Emissive Texture" override="aztec\units\myth\tzitzimitl\textures\tzitzimitl_mata_emissive"></texture>
+			<texture name="Emissive Crawling Texture" override="vfx\textures\emissive_crawling02"></texture>
+			<float name="Emissive Crawling UV Scale" override="0.2010"></float>
+			<float name="Alpha Cutout Threshold" override="0.5000"></float>
+		</parameters>
+		<parameters variant="1">
+			<texture name="BaseColor" override="aztec\units\myth\tzitzimitl\textures\tzitzimitl_upgrade_mata_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\myth\tzitzimitl\textures\tzitzimitl_mata_normals"></texture>
+			<texture name="Masks" override="aztec\units\myth\tzitzimitl\textures\tzitzimitl_mata_masks"></texture>
+			<texture name="Masks2" override="aztec\units\myth\tzitzimitl\textures\tzitzimitl_mata_masks2"></texture>
+			<texture name="Emissive Texture" override="aztec\units\myth\tzitzimitl\textures\tzitzimitl_upgrade_mata_emissive"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_rainbow_basecolor"></texture>
+			<texture name="Emissive Crawling Texture" override="vfx\textures\emissive_crawling02_fire"></texture>
+			<float name="Emissive Intensity" override="2.6910"></float>
+			<float name="Emissive Crawling Speed" override="0.2100"></float>
+			<float name="Emissive Crawling UV Scale" override="0.1210"></float>
+		</parameters>
+		<permutations variant="0">
+			<permutation>EMISSIVE</permutation>
+			<permutation>ALPHA_CUT_OUT</permutation>
+		</permutations>
+		<permutations variant="1">
+			<permutation>EMISSIVE</permutation>
+		</permutations>
+	</submaterial>
+</material>

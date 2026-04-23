@@ -1,0 +1,45 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit_doublesided"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="aztec\units\infantry\shorn_one\textures\shorn_one_gold_mata_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\infantry\shorn_one\textures\shorn_one_gold_mata_normals"></texture>
+			<texture name="Masks" override="aztec\units\infantry\shorn_one\textures\shorn_one_gold_mata_masks"></texture>
+			<texture name="Masks2" override="aztec\units\infantry\shorn_one\textures\shorn_one_gold_mata_masks2"></texture>
+			<int name="Metallic Swatch" override="4"></int>
+		</parameters>
+		<permutations variant="0">
+			<permutation>ALPHA_CUT_OUT</permutation>
+		</permutations>
+	</submaterial>
+	<submaterial name="matb">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="aztec\units\infantry\shorn_one\textures\shorn_one_gold_matb_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\infantry\shorn_one\textures\shorn_one_gold_matb_normals"></texture>
+			<texture name="Masks" override="aztec\units\infantry\shorn_one\textures\shorn_one_gold_matb_masks"></texture>
+			<texture name="Masks2" override="aztec\units\infantry\shorn_one\textures\shorn_one_gold_matb_masks2"></texture>
+			<int name="Metallic Swatch" override="4"></int>
+		</parameters>
+	</submaterial>
+	<submaterial name="matc">
+		<materialdef name="opaque_lit_doublesided"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="aztec\units\infantry\shorn_one\textures\shorn_one_gold_matc_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\infantry\shorn_one\textures\shorn_one_gold_matc_normals"></texture>
+			<texture name="Masks" override="aztec\units\infantry\shorn_one\textures\shorn_one_gold_matc_masks"></texture>
+			<texture name="Masks2" override="aztec\units\infantry\shorn_one\textures\shorn_one_gold_matc_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Metallic Swatch" override="4"></int>
+			<float name="Cloth Anim Speed" override="4.7530"></float>
+			<float name="Cloth Anim Freqeuency Y" override="8.5410"></float>
+			<float name="Cloth Anim Freqeuency" override="8.5410"></float>
+			<float name="Cloth Anim Top Inensity" override="0.0100"></float>
+			<float name="Cloth Anim Side Inensity" override="0.0060"></float>
+		</parameters>
+		<permutations variant="0">
+			<permutation>ALPHA_CUT_OUT</permutation>
+			<permutation>CLOTH</permutation>
+		</permutations>
+	</submaterial>
+</material>

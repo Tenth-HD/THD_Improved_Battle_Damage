@@ -1,0 +1,12 @@
+<material>
+	<submaterial name="matA">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="aztec\units\attachments\dart_thrower\textures\dart_thrower_z_baseline_mata_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\attachments\dart_thrower\textures\dart_thrower_z_baseline_mata_normals"></texture>
+			<texture name="Masks" override="aztec\units\attachments\dart_thrower\textures\dart_thrower_z_baseline_mata_masks"></texture>
+			<texture name="Masks2" override="aztec\units\attachments\dart_thrower\textures\dart_thrower_z_baseline_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+</material>

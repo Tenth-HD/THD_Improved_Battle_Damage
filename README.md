@@ -1,7 +1,9 @@
 # THD Improved Battle Damage - Blood and Bones DLC
 ![Alt text](Example_Images/Thumbnail.png "a title")
 
-**DISCLAIMER** - This mod is intended for <Prismatic Blood> to be enabled for the Blood and Bones DLC. It can work with it off, but the overlays will no longer match the unit blood and won't look look as well.
+**DISCLAIMER** - This mod is intended for <Prismatic Blood> to be enabled for the Blood and Bones DLC. While it can work with it off, the overlays will no longer match the unit blood and won't look as well. Last tested on AoM update version v.100.19.10195.0 (600019R).
+
+**WHAT'S NEW:** Incorporated Aztec pantheon units and specified blood colors for missed campaign units
 
 **Description:** This mod performs 2 things. First, every myth unit and some heroes have been assigned a specific prismatic blood color for their bloodpools and sprays, with the majority of myth units being assigned to red blood by default. Second, the <Bloodied Units> damage overlay has been revamped for the following:
 
@@ -12,18 +14,49 @@
 This mod is compatible with my other bloodpools mod.
 
 
+Example Images:
+![Alt text](Example_Images/Example_Greek_Human_Damage2.png "Greek Hoplite Example")
+
+![Alt text](Example_Images/Example_Norse_Human_Damage2.png "Norse Humans")
+
+![Alt text](Example_Images/Example_Green_Damage2.png "Manticores")
+
 **Changelog**
 
+v 1.2
+    
+    * Specified blood colors for Aztec pantheon myth units
+    * Added helmet, weapon, and shield damage overlays to Aztec human units
+    * Added campaign heroes and units
+
+v 1.1
+    
+    * For AoM:R v.100.19.5934.0 (595758R)
+    * Fixed mispelling in proto.XML causing error messages
+    * Changed the yellow blood overlay to be more subtle
+    * Added crackles to grey texture and readjusted coloring
+    * Crackle effect was added to overlay mask to adjust damage appearance
+    * Added the item battle damage to Achilles' helmet
+    * Removed overlay from Shinigami as this caused missing textures
+    
 v 1.0
 
     * Added 8 new damage overlays of different colors
     * Explicitly assigned blood colors to every myth unit and some heroes. 
-        * Majority of myth units have red blood now by default as group, mythbloodred. Game has this set to random previously
+        * Majority of myth units have red blood now by default as group, mythbloodred. Game had this set this to random colors previously
     * Assigned a specific damage overlay color to each relevant myth and hero unit's model .MATERIAL, rather than the default red
         * Some multi-model units have different simultaneous overlays, i.e. Bellerophon and his pegasus each have different blood colors
     * Assigned a "grey" damage overlay to all weapons, shields, separate helmets, and other non-body unit equipment .MATERIAL files. This allows for a grey overlay to appear on these items upon damage instead of the unit's normal blood.
     * A total of 628 .MATERIAL files were modified
-    
+
+**Credits**
+
+CryShana for their .BAR editor tool https://github.com/CryShana/CryBarEditor
+
+KJohnHayes - For Myth unit blood color suggestion spreadsheet https://forums.ageofempires.com/t/blood-and-bones-pack-feedback/284996/21
+
+PNGWing for the crackle texture
+
 **Documentation**:
 
 In Data.bar

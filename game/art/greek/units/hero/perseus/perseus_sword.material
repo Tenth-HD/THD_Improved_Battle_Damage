@@ -1,0 +1,11 @@
+<material>
+	<submaterial name="matB">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="greek\units\hero\perseus\textures\perseus_sword_basecolor"></texture>
+			<texture name="Normals" override="greek\units\hero\perseus\textures\perseus_sword_normals"></texture>
+			<texture name="Masks" override="greek\units\hero\perseus\textures\perseus_sword_masks"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+</material>

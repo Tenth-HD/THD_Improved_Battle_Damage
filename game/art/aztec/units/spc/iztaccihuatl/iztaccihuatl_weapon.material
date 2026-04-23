@@ -1,0 +1,31 @@
+<material>
+	<submaterial name="matb">
+		<materialdef name="opaque_lit_doublesided"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="aztec\units\spc\iztaccihuatl\textures\iztaccihuatl_weapon_mata_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\spc\iztaccihuatl\textures\iztaccihuatl_weapon_mata_normals"></texture>
+			<texture name="Masks" override="aztec\units\spc\iztaccihuatl\textures\iztaccihuatl_weapon_mata_masks"></texture>
+			<texture name="Masks2" override="aztec\units\spc\iztaccihuatl\textures\iztaccihuatl_weapon_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<float name="Cloth Anim Speed" override="8.0000"></float>
+			<float name="Cloth Anim Freqeuency Y" override="8.8960"></float>
+			<float name="Cloth Anim Freqeuency" override="8.8060"></float>
+			<float name="Cloth Anim Top Inensity" override="0.0110"></float>
+			<float name="Cloth Anim Side Inensity" override="0.0040"></float>
+		</parameters>
+		<permutations variant="0">
+			<permutation>ALPHA_CUT_OUT</permutation>
+			<permutation>CLOTH</permutation>
+		</permutations>
+	</submaterial>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="aztec\units\spc\iztaccihuatl\textures\iztaccihuatl_weapon_mata_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\spc\iztaccihuatl\textures\iztaccihuatl_weapon_mata_normals"></texture>
+			<texture name="Masks" override="aztec\units\spc\iztaccihuatl\textures\iztaccihuatl_weapon_mata_masks"></texture>
+			<texture name="Masks2" override="aztec\units\spc\iztaccihuatl\textures\iztaccihuatl_weapon_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+	</submaterial>
+</material>

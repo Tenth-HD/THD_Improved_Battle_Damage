@@ -1,0 +1,24 @@
+<material>
+	<submaterial name="matc">
+		<materialdef name="opaque_lit_doublesided"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="aztec\units\cavalry\jaguar_rider\textures\jaguar_rider_silver_matc_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\cavalry\jaguar_rider\textures\jaguar_rider_silver_matc_normals"></texture>
+			<texture name="Masks" override="aztec\units\cavalry\jaguar_rider\textures\jaguar_rider_silver_matc_masks"></texture>
+			<texture name="Masks2" override="aztec\units\cavalry\jaguar_rider\textures\jaguar_rider_silver_matc_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+		</parameters>
+		<permutations variant="0">
+			<permutation>ALPHA_CUT_OUT</permutation>
+		</permutations>
+	</submaterial>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit_doublesided"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="aztec\units\cavalry\jaguar_rider\textures\jaguar_rider_silver_mata_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\cavalry\jaguar_rider\textures\jaguar_rider_silver_mata_normals"></texture>
+			<texture name="Masks" override="aztec\units\cavalry\jaguar_rider\textures\jaguar_rider_silver_mata_masks"></texture>
+			<texture name="Masks2" override="aztec\units\cavalry\jaguar_rider\textures\jaguar_rider_silver_mata_masks2"></texture>
+		</parameters>
+	</submaterial>
+</material>

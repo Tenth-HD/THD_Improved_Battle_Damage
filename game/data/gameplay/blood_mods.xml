@@ -1,7 +1,9 @@
 <blooddatamods>
+	<!--adds red to the random color myth bloodgroup-->
 	<bloodgroup name="defaultmythblood">
 		<protobloodgroup>mythbloodred</protobloodgroup>
 	</bloodgroup>
+<!--Creates new myth blood group if not already existing but using red blood-->
 	<bloodgroup name="mythbloodred">
 		<decal>blood_pool01</decal>
 		<decal>blood_pool02</decal>
@@ -21,6 +23,12 @@
 		<decal>blood_pool16</decal>
 		<decal>blood_pool17</decal>
 		<decal>blood_pool18</decal>
+		<decal>blood_pool19</decal>
+		<decal>blood_pool20</decal>
+		<decal>blood_pool21</decal>
+		<decal>blood_pool22</decal>
+		<decal>blood_pool23</decal>
+		<decal>blood_pool24</decal>
 		<splatdecal>blood_splatter01</splatdecal>
 		<splatdecal>blood_splatter02</splatdecal>
 		<splatdecal>blood_splatter03</splatdecal>
@@ -61,6 +69,7 @@
 			bloodpack\buildings\props\bone_piles_medium_noskull_06
 		</noskullbonepile>
 	</bloodgroup>
+<!--Creates new blood group if not already existing-->
 	<bloodgroup name="titanbloodred">
 		<decal>blood_pool01</decal>
 		<decal>blood_pool02</decal>
@@ -80,6 +89,12 @@
 		<decal>blood_pool16</decal>
 		<decal>blood_pool17</decal>
 		<decal>blood_pool18</decal>
+		<decal>blood_pool19</decal>
+		<decal>blood_pool20</decal>
+		<decal>blood_pool21</decal>
+		<decal>blood_pool22</decal>
+		<decal>blood_pool23</decal>
+		<decal>blood_pool24</decal>
 		<splatdecal>blood_splatter01</splatdecal>
 		<splatdecal>blood_splatter02</splatdecal>
 		<splatdecal>blood_splatter03</splatdecal>

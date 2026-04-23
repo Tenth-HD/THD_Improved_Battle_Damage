@@ -1,0 +1,42 @@
+<material>
+	<submaterial name="matB">
+		<materialdef name="opaque_lit_doublesided"></materialdef>
+		<parameters>
+			<int name="Metallic Swatch" override="2"></int>
+			<texture name="BaseColor" override="aztec\units\infantry\otontin\textures\otontin_bronze_mata_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\infantry\otontin\textures\otontin_bronze_mata_normals"></texture>
+			<texture name="Masks" override="aztec\units\infantry\otontin\textures\otontin_bronze_mata_masks"></texture>
+			<texture name="Masks2" override="aztec\units\infantry\otontin\textures\otontin_bronze_mata_masks2"></texture>
+		</parameters>
+		<permutations variant="0">
+			<permutation>ALPHA_CUT_OUT</permutation>
+		</permutations>
+	</submaterial>
+	<submaterial name="matC">
+		<materialdef name="opaque_lit_doublesided"></materialdef>
+		<parameters>
+			<texture name="Masks" override="aztec\units\infantry\otontin\textures\otontin_bronze_matc_masks"></texture>
+			<texture name="BaseColor" override="aztec\units\infantry\otontin\textures\otontin_bronze_matc_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\infantry\otontin\textures\otontin_bronze_matc_normals"></texture>
+			<texture name="Masks2" override="aztec\units\infantry\otontin\textures\otontin_bronze_matc_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Metallic Swatch" override="2"></int>
+		</parameters>
+		<permutations variant="0">
+			<permutation>ALPHA_CUT_OUT</permutation>
+		</permutations>
+	</submaterial>
+	<submaterial name="matA">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="Masks" override="aztec\units\infantry\otontin\textures\otontin_bronze_mata_masks"></texture>
+			<texture name="BaseColor" override="aztec\units\infantry\otontin\textures\otontin_bronze_mata_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\infantry\otontin\textures\otontin_bronze_mata_normals"></texture>
+			<texture name="Masks2" override="aztec\units\infantry\otontin\textures\otontin_bronze_mata_masks2"></texture>
+			<int name="Metallic Swatch" override="2"></int>
+		</parameters>
+		<permutations variant="0">
+			<permutation>ALPHA_CUT_OUT</permutation>
+		</permutations>
+	</submaterial>
+</material>

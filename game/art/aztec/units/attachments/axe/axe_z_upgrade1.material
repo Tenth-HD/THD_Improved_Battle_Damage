@@ -1,0 +1,22 @@
+<material>
+	<submaterial name="matA">
+		<materialdef name="opaque_lit_doublesided"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="aztec\units\attachments\axe\textures\axe_z_upgrade1_mata_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\attachments\axe\textures\axe_z_upgrade1_mata_normals"></texture>
+			<texture name="Masks" override="aztec\units\attachments\axe\textures\axe_z_upgrade1_mata_masks"></texture>
+			<texture name="Masks2" override="aztec\units\attachments\axe\textures\axe_z_upgrade1_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<float name="Cloth Anim Side Inensity" override="0.0040"></float>
+			<float name="Cloth Anim Top Inensity" override="0.0060"></float>
+			<float name="Cloth Anim Freqeuency" override="10.0000"></float>
+			<float name="Cloth Anim Freqeuency Y" override="10.0000"></float>
+			<float name="Cloth Anim Speed" override="5.7970"></float>
+			<int name="Cloth Can Be Damaged" override="0"></int>
+		</parameters>
+		<permutations variant="0">
+			<permutation>ALPHA_CUT_OUT</permutation>
+			<permutation>CLOTH</permutation>
+		</permutations>
+	</submaterial>
+</material>

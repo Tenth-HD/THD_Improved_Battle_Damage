@@ -1,0 +1,77 @@
+<material>
+	<submaterial name="matA">
+		<materialdef name="opaque_lit_doublesided"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="aztec\units\attachments\mace\textures\mace_z_upgrade3_mata_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\attachments\mace\textures\mace_z_upgrade3_mata_normals"></texture>
+			<texture name="Masks" override="aztec\units\attachments\mace\textures\mace_z_upgrade3_mata_masks"></texture>
+			<texture name="Masks2" override="aztec\units\attachments\mace\textures\mace_z_upgrade3_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<float name="Cloth Anim Speed" override="4.1450"></float>
+			<float name="Cloth Anim Freqeuency Y" override="10.0000"></float>
+			<float name="Cloth Anim Freqeuency" override="10.0000"></float>
+			<float name="Cloth Anim Top Inensity" override="0.0060"></float>
+			<float name="Cloth Anim Side Inensity" override="0.0170"></float>
+			<int name="Cloth Can Be Damaged" override="0"></int>
+			<int name="Metallic Swatch" override="5"></int>
+		</parameters>
+		<parameters variant="1">
+			<texture name="BaseColor" override="aztec\units\attachments\mace\textures\mace_z_upgrade3_mata_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\attachments\mace\textures\mace_z_upgrade3_mata_normals"></texture>
+			<texture name="Masks" override="aztec\units\attachments\mace\textures\mace_z_upgrade3_mata_masks"></texture>
+			<texture name="Masks2" override="aztec\units\attachments\mace\textures\mace_z_upgrade3_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Metallic Swatch" override="2"></int>
+			<float name="Cloth Anim Side Inensity" override="0.0170"></float>
+			<float name="Cloth Anim Top Inensity" override="0.0060"></float>
+			<float name="Cloth Anim Freqeuency" override="10.0000"></float>
+			<float name="Cloth Anim Freqeuency Y" override="10.0000"></float>
+			<float name="Cloth Anim Speed" override="4.1450"></float>
+			<int name="Cloth Can Be Damaged" override="0"></int>
+		</parameters>
+		<parameters variant="2">
+			<texture name="BaseColor" override="aztec\units\attachments\mace\textures\mace_z_upgrade3_mata_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\attachments\mace\textures\mace_z_upgrade3_mata_normals"></texture>
+			<texture name="Masks" override="aztec\units\attachments\mace\textures\mace_z_upgrade3_mata_masks"></texture>
+			<texture name="Masks2" override="aztec\units\attachments\mace\textures\mace_z_upgrade3_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Metallic Swatch" override="3"></int>
+			<float name="Cloth Anim Side Inensity" override="0.0170"></float>
+			<float name="Cloth Anim Top Inensity" override="0.0060"></float>
+			<float name="Cloth Anim Freqeuency" override="10.0000"></float>
+			<float name="Cloth Anim Freqeuency Y" override="10.0000"></float>
+			<float name="Cloth Anim Speed" override="4.1450"></float>
+			<int name="Cloth Can Be Damaged" override="0"></int>
+		</parameters>
+		<parameters variant="3">
+			<texture name="BaseColor" override="aztec\units\attachments\mace\textures\mace_z_upgrade3_mata_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\attachments\mace\textures\mace_z_upgrade3_mata_normals"></texture>
+			<texture name="Masks" override="aztec\units\attachments\mace\textures\mace_z_upgrade3_mata_masks"></texture>
+			<texture name="Masks2" override="aztec\units\attachments\mace\textures\mace_z_upgrade3_mata_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
+			<int name="Metallic Swatch" override="4"></int>
+			<float name="Cloth Anim Side Inensity" override="0.0170"></float>
+			<float name="Cloth Anim Top Inensity" override="0.0060"></float>
+			<float name="Cloth Anim Freqeuency" override="10.0000"></float>
+			<float name="Cloth Anim Freqeuency Y" override="10.0000"></float>
+			<float name="Cloth Anim Speed" override="4.1450"></float>
+			<int name="Cloth Can Be Damaged" override="0"></int>
+		</parameters>
+		<permutations variant="0">
+			<permutation>ALPHA_CUT_OUT</permutation>
+			<permutation>CLOTH</permutation>
+		</permutations>
+		<permutations variant="1">
+			<permutation>ALPHA_CUT_OUT</permutation>
+			<permutation>CLOTH</permutation>
+		</permutations>
+		<permutations variant="2">
+			<permutation>ALPHA_CUT_OUT</permutation>
+			<permutation>CLOTH</permutation>
+		</permutations>
+		<permutations variant="3">
+			<permutation>ALPHA_CUT_OUT</permutation>
+			<permutation>CLOTH</permutation>
+		</permutations>
+	</submaterial>
+</material>

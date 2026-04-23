@@ -1,0 +1,20 @@
+<material>
+	<submaterial name="mata">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="aztec\units\myth\quinametzin\textures\quinametzin_upgrade_mata_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\myth\quinametzin\textures\quinametzin_upgrade_mata_normals"></texture>
+			<texture name="Masks" override="aztec\units\myth\quinametzin\textures\quinametzin_upgrade_mata_masks"></texture>
+			<texture name="Masks2" override="aztec\units\myth\quinametzin\textures\quinametzin_upgrade_mata_masks2"></texture>
+		</parameters>
+	</submaterial>
+	<submaterial name="matb">
+		<materialdef name="opaque_lit"></materialdef>
+		<parameters>
+			<texture name="BaseColor" override="aztec\units\myth\quinametzin\textures\quinametzin_upgrade_mata_basecolor"></texture>
+			<texture name="Normals" override="aztec\units\myth\quinametzin\textures\quinametzin_upgrade_mata_normals"></texture>
+			<texture name="Masks" override="aztec\units\myth\quinametzin\textures\quinametzin_upgrade_mata_masks"></texture>
+			<texture name="Masks2" override="aztec\units\myth\quinametzin\textures\quinametzin_upgrade_mata_masks2"></texture>
+		</parameters>
+	</submaterial>
+</material>
