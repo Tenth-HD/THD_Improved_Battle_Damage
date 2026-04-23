@@ -26,6 +26,7 @@ Example Images:
 v 1.2
     
     * Specified blood colors for Aztec pantheon myth units
+    * Added helmet, weapon, and shield damage overlays to Aztec human units
     * Added campaign heroes and units
 
 v 1.1
