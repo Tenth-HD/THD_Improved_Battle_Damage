@@ -6,7 +6,6 @@
 			<texture name="Normals" override="egyptian\units\archery\chariot_archer\textures\chariot_archer_horse_iron_mata_normals"></texture>
 			<texture name="Masks" override="egyptian\units\archery\chariot_archer\textures\chariot_archer_horse_iron_mata_masks"></texture>
 			<texture name="Masks2" override="egyptian\units\archery\chariot_archer\textures\chariot_archer_horse_iron_mata_masks2"></texture>
-			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
 			<int name="Metallic Swatch" override="1"></int>
 			<int name="Use Gradient" override="1"></int>
 			<float name="Gradient Top Strength" override="0.0000"></float>
@@ -19,6 +18,7 @@
 			<texture name="Normals" override="egyptian\units\archery\chariot_archer\textures\chariot_archer_horse_iron_matb_normals"></texture>
 			<texture name="Masks" override="egyptian\units\archery\chariot_archer\textures\chariot_archer_horse_iron_matb_masks"></texture>
 			<texture name="Masks2" override="egyptian\units\archery\chariot_archer\textures\chariot_archer_horse_iron_matb_masks2"></texture>
+			<texture name="Blood Texture" override="bloodpack\vfx\decal\overlay\textures\blood_overlay_small_01_grey_basecolor"></texture>
 			<int name="Metallic Swatch" override="1"></int>
 		</parameters>
 	</submaterial>

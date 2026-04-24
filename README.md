@@ -23,6 +23,11 @@ Example Images:
 
 **Changelog**
 
+v 1.2.1
+
+    * Fixed baseline chariot archer having swapped overlays
+    * Removed grey overlay on baseline War Elephant rider's hair
+    
 v 1.2
     
     * Specified blood colors for Aztec pantheon myth units
